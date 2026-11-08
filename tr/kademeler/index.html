@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Kademeler</title>
+  <meta name="description" content="Kademelere göre program, sınıf yapısı ve rehberlik desteği." />
+  <meta name="keywords" content="özel okul, anaokulu, ilkokul, lise" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://egitim-3.webyapar.com/tr/kademeler/" />
+  <link rel="alternate" hreflang="tr" href="https://egitim-3.webyapar.com/tr/kademeler/" />
+  <link rel="alternate" hreflang="en" href="https://egitim-3.webyapar.com/en/kademeler/" />
+  <link rel="alternate" hreflang="ar" href="https://egitim-3.webyapar.com/ar/kademeler/" />
+  <link rel="alternate" hreflang="x-default" href="https://egitim-3.webyapar.com/tr/kademeler/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kademeler" />
+  <meta property="og:description" content="Kademelere göre program, sınıf yapısı ve rehberlik desteği." />
+  <meta property="og:url" content="https://egitim-3.webyapar.com/tr/kademeler/" />
+  <meta property="og:image" content="https://egitim-3.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Kademeler" />
+  <meta property="og:site_name" content="Ufuk Okulları" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kademeler" />
+  <meta name="twitter:description" content="Kademelere göre program, sınıf yapısı ve rehberlik desteği." />
+  <meta name="twitter:image" content="https://egitim-3.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#C2410C" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/fonts/source-sans-3.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/rubik.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/css.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=jalfk" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=jalfk" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=jalfk" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=jalfk" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=jalfk" />
+  <link rel="shortcut icon" href="/img/icon.png?v=jalfk" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://egitim-3.webyapar.com/#website",
+      "url": "https://egitim-3.webyapar.com/",
+      "name": "Ufuk Okulları",
+      "description": "Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://egitim-3.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://egitim-3.webyapar.com/#organization",
+      "name": "Ufuk Okulları",
+      "url": "https://egitim-3.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://egitim-3.webyapar.com/img/logo.png"
+      },
+      "image": "https://egitim-3.webyapar.com/img/logo.png",
+      "description": "Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)",
+      "telephone": "+90 342 000 00 00",
+      "email": "kayit@ufukokullari.example",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 342 000 00 00",
+        "email": "kayit@ufukokullari.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://egitim-3.webyapar.com/tr/kademeler/#webpage",
+      "url": "https://egitim-3.webyapar.com/tr/kademeler/",
+      "name": "Kademeler",
+      "description": "Kademelere göre program, sınıf yapısı ve rehberlik desteği.",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://egitim-3.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://egitim-3.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://egitim-3.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-11-05T22:24:51.515Z",
+      "breadcrumb": {
+        "@id": "https://egitim-3.webyapar.com/tr/kademeler/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://egitim-3.webyapar.com/tr/kademeler/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ufuk Okulları",
+          "item": "https://egitim-3.webyapar.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Kademeler",
+          "item": "https://egitim-3.webyapar.com/tr/kademeler/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=jalfk">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-zyyq3h" role="region" aria-label="Demo site uyarısı" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar#egitim" target="_blank" rel="noopener noreferrer">
+    <span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-zyyq3h");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001-m9 h0001-m9--kutulu h0001-m9-bandli h0001-m9-sticky" role="banner">
+  <div class="h0001-m9-band"><div class="h0001-m9-band-ic"><ul class="h0001-m9-bilgi"><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="h0001-m9-bilgi-link" href="tel:+903420000000" dir="ltr">+90 342 000 00 00</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="h0001-m9-bilgi-link" href="mailto:kayit@ufukokullari.example">kayit@ufukokullari.example</a></li><li><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span>Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla</span></li></ul><div class="h0001-m9-band-sag"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kademeler/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kademeler/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kademeler/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div></div></div>
+  <div class="h0001-m9-bosluk" aria-hidden="true"></div>
+  <div class="h0001-m9-bar">
+    <div class="h0001-m9-bar-ic">
+      <nav class="h0001-m9-nav h0001-m9-nav--sol" aria-label="Navigasyon">
+        <ul><li><a class="h0001-m9-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m9-oge" href="/tr/kademeler/" aria-current="page">Kademeler</a></li><li><a class="h0001-m9-oge" href="/tr/on-kayit/">Önkayıt</a></li><li><a class="h0001-m9-oge" href="/tr/akademik-takvim/">Akademik Takvim</a></li></ul>
+      </nav>
+      <a class="h0001-m9-logo" href="/tr/" aria-label="Anasayfa - Ufuk Okulları">
+        <img src="/img/logo.png" alt="Ufuk Okulları" loading="eager" decoding="async" />
+      </a>
+      <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
+        <ul><li><a class="h0001-m9-oge" href="/tr/sss/">Sıkça Sorulan Sorular</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/">İletişim</a></li></ul>
+      </nav>
+      <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kademeler/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kademeler/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kademeler/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
+      <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-u6q00f-panel" aria-label="Menüyü Aç/Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="h0001-m9-panel" id="m9-u6q00f-panel" hidden>
+    <div class="h0001-m9-panel-ust">
+      <a class="h0001-m9-logo h0001-m9-logo--panel" href="/tr/" aria-label="Anasayfa - Ufuk Okulları">
+        <img src="/img/logo.png" alt="Ufuk Okulları" loading="lazy" decoding="async" />
+      </a>
+      <button class="h0001-m9-kapat" type="button" aria-label="Menüyü Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <nav class="h0001-m9-panel-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m9-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m9-oge" href="/tr/kademeler/" aria-current="page">Kademeler</a></li><li><a class="h0001-m9-oge" href="/tr/on-kayit/">Önkayıt</a></li><li><a class="h0001-m9-oge" href="/tr/akademik-takvim/">Akademik Takvim</a></li><li><a class="h0001-m9-oge" href="/tr/sss/">Sıkça Sorulan Sorular</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/">İletişim</a></li></ul>
+    </nav>
+    <div class="h0001-m9-panel-alt">
+      <ul class="h0001-m9-bilgi"><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="h0001-m9-bilgi-link" href="tel:+903420000000" dir="ltr">+90 342 000 00 00</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="h0001-m9-bilgi-link" href="mailto:kayit@ufukokullari.example">kayit@ufukokullari.example</a></li><li><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span>Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla</span></li></ul>
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kademeler/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kademeler/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kademeler/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0001-m9");
+    if (!kok) { return; }
+    var dugme = kok.querySelector(".h0001-m9-hamburger");
+    var panel = kok.querySelector(".h0001-m9-panel");
+    var kapat = kok.querySelector(".h0001-m9-kapat");
+    var bar = kok.querySelector(".h0001-m9-bar");
+    var bosluk = kok.querySelector(".h0001-m9-bosluk");
+
+    function ac() {
+      if (!panel) { return; }
+      panel.hidden = false;
+      if (dugme) { dugme.setAttribute("aria-expanded", "true"); }
+      document.body.style.overflow = "hidden";
+      if (kapat) { kapat.focus(); }
+    }
+    function kapa() {
+      if (!panel || panel.hidden) { return; }
+      panel.hidden = true;
+      if (dugme) { dugme.setAttribute("aria-expanded", "false"); dugme.focus(); }
+      document.body.style.overflow = "";
+    }
+    if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
+    if (kapat) { kapat.addEventListener("click", kapa); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
+    
+    if (panel) {
+      panel.addEventListener("click", function (e) {
+        var a = e.target && e.target.closest ? e.target.closest("a") : null;
+        if (a && a.getAttribute("href") && a.getAttribute("href").charAt(0) === "#") { kapa(); }
+      });
+    }
+
+    
+    if (kok.classList.contains("h0001-m9-sticky") && bar && bosluk) {
+      var esik = 0, bekliyor = false, acik = false;
+      function olc() { esik = kok.getBoundingClientRect().top + (window.pageYOffset || 0) + (bar.offsetTop - kok.offsetTop) + 8; }
+      function uygula() {
+        bekliyor = false;
+        var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+        if (!acik && y > esik + bar.offsetHeight) {
+          bosluk.style.height = bar.offsetHeight + "px";
+          kok.classList.add("h0001-m9-kucuk");
+          acik = true;
+        } else if (acik && y <= esik) {
+          kok.classList.remove("h0001-m9-kucuk");
+          bosluk.style.height = "";
+          acik = false;
+        }
+      }
+      olc();
+      window.addEventListener("scroll", function () { if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); } }, { passive: true });
+      window.addEventListener("resize", function () { if (!acik) { olc(); } });
+    }
+  })();
+</script>
+</div>
+  <div id="content"><h1 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Kademeler</h1><section class="b0000-values">
+  <div class="b0000-values-container">
+    <div class="b0000-values-header">
+      <div class="b0000-values-badge">Kademeler</div>
+      <h2 class="b0000-values-title">Her yaşa uygun eğitim kademesi</h2>
+      <p class="b0000-values-desc">Kademelere göre program, sınıf yapısı ve rehberlik desteği.</p>
+    </div>
+    <div class="b0000-values-grid">
+      <div class="b0000-values-card" style="animation-delay:0s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">toys</span></div><h3 class="b0000-values-card-title">Anaokulu</h3><p class="b0000-values-card-text">Oyun temelli öğrenme, küçük gruplar ve güvenli ortam.</p></div><div class="b0000-values-card" style="animation-delay:0.08s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">menu_book</span></div><h3 class="b0000-values-card-title">İlkokul</h3><p class="b0000-values-card-text">Temel okuma-yazma, matematik ve fen becerileri; haftalık rehberlik saati.</p></div><div class="b0000-values-card" style="animation-delay:0.16s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">science</span></div><h3 class="b0000-values-card-title">Ortaokul</h3><p class="b0000-values-card-text">Proje tabanlı çalışmalar, laboratuvar uygulamaları ve yabancı dil.</p></div><div class="b0000-values-card" style="animation-delay:0.24s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">workspace_premium</span></div><h3 class="b0000-values-card-title">Lise</h3><p class="b0000-values-card-text">Alan seçimi, akademik danışmanlık ve üniversite hazırlık planı.</p></div><div class="b0000-values-card" style="animation-delay:0.32s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">psychology</span></div><h3 class="b0000-values-card-title">Rehberlik servisi</h3><p class="b0000-values-card-text">Öğrenci gelişimi için veli ile iş birliği içinde bireysel görüşmeler.</p></div><div class="b0000-values-card" style="animation-delay:0.4s"><div class="b0000-values-icon" aria-hidden="true"><span class="material-symbols-outlined">directions_bus</span></div><h3 class="b0000-values-card-title">Servis ve yemek</h3><p class="b0000-values-card-text">Güzergâh planı ve aylık yemek listesi velilere önceden duyurulur.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="b0001-sa b0001-sa-yatay" id="sa-fk2orr" style="--sa-n:4">
+  <div class="b0001-sa-wrap">
+    <header class="b0001-sa-head"><p class="b0001-sa-eyebrow">Kayıt süreci</p><h2 class="b0001-sa-title">Önkayıttan ders zilinin çalmasına</h2><p class="b0001-sa-desc">Dört adımda kayıt.</p></header>
+    <ol class="b0001-sa-list" aria-label="Süreç adımları"><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">1</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 1</span><h3 class="b0001-sa-h">Önkayıt görüşmesi</h3><p class="b0001-sa-p">Randevu alın, okulu ve kademeyi birlikte gezelim.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">2</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 2</span><h3 class="b0001-sa-h">Tanışma ve değerlendirme</h3><p class="b0001-sa-p">Öğrenciyle kısa bir tanışma ve seviye görüşmesi yapılır.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">3</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 3</span><h3 class="b0001-sa-h">Kayıt belgeleri</h3><p class="b0001-sa-p">Gerekli belgeler ve veli aydınlatma metni tamamlanır.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">4</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 4</span><h3 class="b0001-sa-h">Uyum haftası</h3><p class="b0001-sa-p">Yeni öğrenciler için uyum programı uygulanır.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("sa-fk2orr");
+    if (!kok || kok.getAttribute("data-sa-hazir") === "1") { return; }
+    kok.setAttribute("data-sa-hazir", "1");
+    if (!("IntersectionObserver" in window)) { return; }
+    var adimlar = kok.querySelectorAll(".b0001-sa-step");
+    var n = adimlar.length;
+    if (!n) { return; }
+    var gorunen = [];
+    var i;
+    for (i = 0; i < n; i++) { gorunen.push(false); }
+    function uygula() {
+      var son = -1;
+      var j;
+      for (j = 0; j < n; j++) { if (gorunen[j]) { son = j; } }
+      for (j = 0; j < n; j++) {
+        var c = adimlar[j].className.replace(/\s*b0001-sa-(aktif|gecti)\b/g, "");
+        if (son >= 0 && j < son) { c += " b0001-sa-gecti"; }
+        else if (j === son) { c += " b0001-sa-aktif"; }
+        adimlar[j].className = c;
+      }
+    }
+    var io = new IntersectionObserver(function (girdiler) {
+      var j;
+      for (j = 0; j < girdiler.length; j++) {
+        gorunen[parseInt(girdiler[j].target.getAttribute("data-sa-i"), 10)] = girdiler[j].isIntersecting;
+      }
+      uygula();
+    }, { threshold: 0.5 });
+    for (i = 0; i < n; i++) { adimlar[i].setAttribute("data-sa-i", String(i)); io.observe(adimlar[i]); }
+  })();
+</script>
+<section class="b0002-c3 b0002-c3-cerceveli-kart" id="c3-stz03q">
+  <div class="b0002-c3-wrap">
+    <div class="b0002-c3-kutu">
+      <span class="b0002-c3-daire b0002-c3-daire-1" aria-hidden="true"></span>
+      <span class="b0002-c3-daire b0002-c3-daire-2" aria-hidden="true"></span>
+      <span class="b0002-c3-daire b0002-c3-daire-3" aria-hidden="true"></span>
+      <div class="b0002-c3-icerik">
+        <h2 class="b0002-c3-title">Önkayıt görüşmesi için randevu alın</h2>
+        <p class="b0002-c3-text">Önkayıt görüşmesi için randevu oluşturun.</p>
+        <div class="b0002-c3-btns"><a class="b0002-c3-btn b0002-c3-btn-1" href="/tr/on-kayit/"><span>Önkayıt</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0002-c3-btn b0002-c3-btn-2" href="/tr/kurum-bilgileri/">Kurum bilgileri</a></div>
+      </div>
+      <div class="b0002-c3-yan"><div class="b0002-c3-kart"><div class="b0002-c3-kart-bas"><span class="b0002-c3-wa-ikon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><p class="b0002-c3-kart-title">WhatsApp ile yazın</p></div><a class="b0002-c3-num" href="tel:+903420000000"><bdi dir="ltr">+90 342 000 00 00</bdi></a><p class="b0002-c3-saat"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span><span class="b0002-c3-saat-etiket">Çalışma saatleri:</span> Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla</span></p><a class="b0002-c3-wa" href="https://wa.me/903420000000?text=Merhaba%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><span class="b0002-c3-wa-ikon b0002-c3-wa-ikon-kucuk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><span>Mesaj gönder</span></a></div></div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="f0000-f9" role="contentinfo">
+  <div class="f0000-f9__main f0000-f9__main--c3">
+    <div class="f0000-f9__col f0000-f9__brand">
+      <a href="/tr/" class="f0000-f9__logo" aria-label="Anasayfa - Ufuk Okulları">
+        <img src="/img/logo.png" alt="Ufuk Okulları Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f9__about">Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)</p>
+    </div>
+    <nav class="f0000-f9__col f0000-f9__pages" aria-label="Navigasyon">
+      <h3 class="f0000-f9__title">Sayfalar</h3>
+      <ul class="f0000-f9__list">
+        <li><a class="f0000-f9__link" href="/tr/">Anasayfa</a></li><li><a class="f0000-f9__link" href="/tr/kademeler/">Kademeler</a></li><li><a class="f0000-f9__link" href="/tr/on-kayit/">Önkayıt</a></li><li><a class="f0000-f9__link" href="/tr/akademik-takvim/">Akademik Takvim</a></li><li><a class="f0000-f9__link" href="/tr/sss/">Sıkça Sorulan Sorular</a></li><li><a class="f0000-f9__link" href="/tr/galeri/">Galeri</a></li><li><a class="f0000-f9__link" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="f0000-f9__link" href="/tr/iletisim/">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="f0000-f9__col f0000-f9__contact"><h3 class="f0000-f9__title">İletişim</h3><ul class="f0000-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Eğitim Cd. No: 3, Şehitkamil, Gaziantep (kurgusal adres)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f9__link" href="tel:+903420000000" dir="ltr">+90 342 000 00 00</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f9__link" href="mailto:kayit@ufukokullari.example">kayit@ufukokullari.example</a></li></ul></div>
+    
+  </div>
+  <div class="f0000-f9__bottom">
+    <p class="f0000-f9__rights">&copy; 2026 Ufuk Okulları. Tüm hakları saklıdır.</p>
+    <ul class="f0000-f9__legal"><li><a class="f0000-f9__link" href="/tr/gizlilikpolitikasi/">Gizlilik</a></li><li><a class="f0000-f9__link" href="/tr/kisiselveriler/">Kişisel veriler</a></li></ul>
+    <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kademeler/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kademeler/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kademeler/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+  </div>
+</footer>
+
+<div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
+  <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#egitim" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #FFFFFF);color:var(--mx-site-text, #f3f4f6);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #f3f4f6)">Kurumsal ve Yasal</strong><a href="/tr/misyon/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a><a href="/tr/kullanicahaklari/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Kullanıcı Hakları</a><a href="/tr/yasaluyari/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Yasal Uyarı</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=jalfk"></script>
+  <script defer src="/src/mx-store.js?v=jalfk"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=jalfk"></script>
+  <script defer src="/src/cookie.js?v=jalfk"></script>
+
+</body>
+
+</html>

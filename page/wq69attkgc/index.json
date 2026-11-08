@@ -1,0 +1,39 @@
+{
+  "id": "wq69attkgc",
+  "name": {
+    "tr": "Önkayıt",
+    "en": "Pre-enrolment",
+    "ar": "التسجيل المسبق"
+  },
+  "description": {
+    "tr": "Kademeyi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Öğrenci bilgisi istenmez.",
+    "en": "Choose a level and a convenient day; on this demo site your request is created only in your browser. No student details are requested.",
+    "ar": "اختر المرحلة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط. لا تُطلب بيانات الطالب."
+  },
+  "keyword": {
+    "tr": "özel okul, anaokulu, ilkokul, lise",
+    "en": "private school, kindergarten, primary, high school",
+    "ar": "مدرسة خاصة، روضة، ابتدائية، ثانوية"
+  },
+  "path": "on-kayit",
+  "icon": "how_to_reg",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "4ozd8m"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Önkayıt",
+    "en": "Pre-enrolment",
+    "ar": "التسجيل المسبق"
+  },
+  "date": "2026-10-31T14:32:44.575Z",
+  "update": "2026-11-05T22:24:51.522Z"
+}

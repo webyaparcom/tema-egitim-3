@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, her öğrencinin merakını destekleyen, güvenli ve şeffaf bir öğrenme ortamı sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to provide a safe, transparent learning environment that supports every student’s curiosity.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا توفير بيئة تعلّم آمنة وشفافة تدعم فضول كل طالب.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "u2ujes",
+      "stz03q"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "update": "2026-11-05T22:24:51.564Z",
+  "date": "2026-05-19"
+}

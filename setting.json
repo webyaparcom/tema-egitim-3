@@ -1,0 +1,57 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)",
+    "en": "Ufuk Schools: four levels from kindergarten to high school, classes of 12, pre-enrolment meetings and the academic calendar. (Demo site)",
+    "ar": "مدارس أوفوك: أربع مراحل من الروضة إلى الثانوية وصفوف من 12 طالبًا ولقاء التسجيل المسبق والتقويم الأكاديمي. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "özel okul, anaokulu, ilkokul, lise",
+    "en": "private school, kindergarten, primary, high school",
+    "ar": "مدرسة خاصة، روضة، ابتدائية، ثانوية"
+  },
+  "category": "Kurumsal",
+  "name": "Ufuk Okulları",
+  "domain": "egitim-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#C2410C",
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "source-sans-3",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "phone": "+90 342 000 00 00",
+  "email": "kayit@ufukokullari.example",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "6px",
+    "--mx-radius-md": "10px",
+    "--mx-radius-lg": "14px",
+    "--mx-radius-xl": "19px",
+    "--mx-shadow-md": "0 1px 2px rgba(0,0,0,.06)"
+  }
+}

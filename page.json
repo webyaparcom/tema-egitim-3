@@ -1,0 +1,199 @@
+{
+  "data": [
+    {
+      "id": "ao3b0rmsqd",
+      "name": {
+        "tr": "Kademeler",
+        "en": "Levels",
+        "ar": "المراحل"
+      },
+      "description": {
+        "tr": "Kademelere göre program, sınıf yapısı ve rehberlik desteği.",
+        "en": "Programme, class structure and guidance support by level.",
+        "ar": "البرنامج وبنية الصفوف والدعم الإرشادي بحسب المرحلة."
+      },
+      "path": "kademeler",
+      "icon": "school",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4z1re6",
+          "fk2orr",
+          "stz03q"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "wq69attkgc",
+      "name": {
+        "tr": "Önkayıt",
+        "en": "Pre-enrolment",
+        "ar": "التسجيل المسبق"
+      },
+      "description": {
+        "tr": "Kademeyi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Öğrenci bilgisi istenmez.",
+        "en": "Choose a level and a convenient day; on this demo site your request is created only in your browser. No student details are requested.",
+        "ar": "اختر المرحلة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط. لا تُطلب بيانات الطالب."
+      },
+      "path": "on-kayit",
+      "icon": "how_to_reg",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4ozd8m"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "ctocj269jy",
+      "name": {
+        "tr": "Akademik Takvim",
+        "en": "Academic Calendar",
+        "ar": "التقويم الأكاديمي"
+      },
+      "description": {
+        "tr": "Eğitim-öğretim yılının örnek takvimi.",
+        "en": "A sample calendar of the school year.",
+        "ar": "تقويم نموذجي للعام الدراسي."
+      },
+      "path": "akademik-takvim",
+      "icon": "calendar_month",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "xv78op"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "526yrstfok",
+      "name": {
+        "tr": "Sıkça Sorulan Sorular",
+        "en": "FAQ",
+        "ar": "الأسئلة الشائعة"
+      },
+      "description": {
+        "tr": "Sıkça sorulan sorular ve yanıtları.",
+        "en": "Frequently asked questions and answers.",
+        "ar": "الأسئلة الشائعة وإجاباتها."
+      },
+      "path": "sss",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ypgdx1",
+          "stz03q"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "bkocjsd7pc",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Sınıf, kütüphane, laboratuvar ve bahçeden görüntüler; çocuk görseli yoktur.",
+        "en": "Views of classrooms, library, laboratory and garden; no images of children.",
+        "ar": "صور من الصفوف والمكتبة والمختبر والحديقة؛ دون صور أطفال."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "x2dt80"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "1cut0rw4ja",
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "description": {
+        "tr": "Ufuk Okulları, her öğrencinin hızına saygı duyan ve veliyle şeffaf iletişimi esas alan kurgusal bir demo okuldur. Bu sitedeki kurum kodu, ad ve bilgiler kurgusaldır; çocuk fotoğrafı kullanılmamıştır.",
+        "en": "Ufuk Schools is a fictional demo school that respects each student’s pace and values open communication with parents. The institution code, names and details on this site are fictional; no photographs of children are used.",
+        "ar": "مدارس أوفوك مدرسة تجريبية افتراضية تحترم وتيرة كل طالب وتعتمد التواصل الشفاف مع أولياء الأمور. رمز المؤسسة والأسماء والبيانات في هذا الموقع افتراضية، ولم تُستخدم صور أطفال."
+      },
+      "path": "hakkimizda",
+      "icon": "info",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "za0mag",
+          "d3rmbc",
+          "3yrk6j"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "00qgkf",
+          "t7mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

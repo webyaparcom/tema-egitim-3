@@ -1,0 +1,2996 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "t7mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "#ffffff",
+        "height": "100px",
+        "background-color": "#09579A",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu"
+    },
+    {
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "id": "t7sl01",
+      "data": [
+        {
+          "img": "1.jpg"
+        },
+        {
+          "img": "2.jpg"
+        },
+        {
+          "img": "3.jpg"
+        }
+      ],
+      "desing": {
+        "delay": 3000,
+        "margin": "0px 0 0 0"
+      },
+      "version": "1.0.0",
+      "icon": "view_carousel",
+      "index": 1
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "t7ct01",
+      "desing": {
+        "color": "#09579A",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0530 000 00 00",
+          "url": "tel:05300000000"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Adres Bilgisi Henüz eklenmedi Şehitkamil / Gaziantep"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "index": 2
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "id": "t7mp01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "stil": "yan-bilgi",
+        "address": {
+          "tr": "Eğitim Cd. No: 3, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Egitim Street, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "شارع التعليم رقم 3، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "kayit@ufukokullari.example",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "map",
+      "index": 3
+    },
+    {
+      "index": 4,
+      "name": "Page Desing",
+      "path": "page-desing-3",
+      "local": "body",
+      "category": "page",
+      "id": "t7pd01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "var(--mx-site-primary, #2563eb)",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "category": "page",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)"
+      },
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "id": "t7ft01",
+      "desing": {
+        "bgcolor": "#09579A",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px",
+        "stil": "",
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
+      },
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset",
+      "index": 5
+    },
+    {
+      "id": "t7ls01",
+      "name": "Ana Sayfa Liste",
+      "path": "page-list",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "page",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "eyebrow": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionTitle": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionSubtitle": {
+          "tr": "",
+          "en": ""
+        },
+        "ctaLabel": {
+          "tr": "",
+          "en": ""
+        },
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "#ffffff",
+        "titlecolor": "#111827",
+        "textcolor": "#4b5563",
+        "bordercolor": "rgba(17, 24, 39, 0.1)",
+        "radius": "14px",
+        "accent": "#1e3a5f"
+      },
+      "index": 6
+    },
+    {
+      "id": "t7in01",
+      "name": "Tanitim",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "version": "1.1.0",
+      "icon": "business",
+      "desing": {
+        "name": {
+          "tr": "Bizi Tanıyın",
+          "en": "About Us"
+        },
+        "description": {
+          "tr": "Yıllarin deneyimi ve uzman kadromuzla kurumsal çözümler sunuyoruz.",
+          "en": "Corporate solutions with experience and expertise."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Vision"
+        },
+        "spot2": {
+          "tr": "Sektorumuzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "Lead with innovation."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Mission"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver solutions fast and clearly."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "#09579A",
+        "fontcolor": "#fff",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate"
+        },
+        "stil": ""
+      },
+      "index": 7
+    },
+    {
+      "id": "t7fq01",
+      "name": "SSS",
+      "path": "faq-1",
+      "local": "body",
+      "category": "faq",
+      "version": "1.0.0",
+      "icon": "help",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "#ffffff",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "#09579A",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "FAQ"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların cevaplari.",
+          "en": "Answers to common questions."
+        },
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)"
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Hizmetleriniz hangi bölgeleri kapsiyor?",
+            "en": "Which regions do you cover?"
+          },
+          "answer": {
+            "tr": "Türkiye genelinde hizmet veriyoruz.",
+            "en": "We serve nationwide."
+          }
+        },
+        {
+          "question": {
+            "tr": "Proje süreci nasıl ilerler?",
+            "en": "How does the project process work?"
+          },
+          "answer": {
+            "tr": "Keşif, teklif, uygulama ve teslim adımlarıyla ilerleriz.",
+            "en": "Discovery, proposal, delivery."
+          }
+        },
+        {
+          "question": {
+            "tr": "Destek sunuyor musunuz?",
+            "en": "Do you offer support?"
+          },
+          "answer": {
+            "tr": "Evet, proje sonrası destek sağlıyoruz.",
+            "en": "Yes, post-project support is available."
+          }
+        }
+      ],
+      "index": 8
+    },
+    {
+      "id": "t7ca01",
+      "name": "CTA",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "version": "1.1.0",
+      "icon": "campaign",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #09579A 0%, #09579Aee 100%)",
+        "btnbg": "#09579A",
+        "btncolor": "#ffffff",
+        "title": {
+          "tr": "Projenizi Birlikte Hayata Geçirelim",
+          "en": "Let's Build Together"
+        },
+        "description": {
+          "tr": "Ücretsiz keşif görüşmesi icin hemen iletisime geçin.",
+          "en": "Contact us for a free discovery call."
+        },
+        "btn1Text": {
+          "tr": "İletişime Gec",
+          "en": "Contact"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Ürünler",
+          "en": "Products"
+        },
+        "btn2Url": "urunler",
+        "stil": ""
+      },
+      "index": 9
+    },
+    {
+      "id": "t7plpr",
+      "name": "Ürünler Liste",
+      "path": "page-list",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "eyebrow": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionTitle": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionSubtitle": {
+          "tr": "",
+          "en": ""
+        },
+        "ctaLabel": {
+          "tr": "",
+          "en": ""
+        },
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "#ffffff",
+        "titlecolor": "#111827",
+        "textcolor": "#4b5563",
+        "bordercolor": "rgba(17, 24, 39, 0.1)",
+        "radius": "14px",
+        "accent": "#1e3a5f"
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#egitim",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "q3xw42",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Kademeler",
+          "en": "Levels",
+          "ar": "المراحل"
+        },
+        "title": {
+          "tr": "Her yaşa uygun eğitim kademesi",
+          "en": "A level for every age",
+          "ar": "مرحلة تعليمية لكل عمر"
+        },
+        "description": {
+          "tr": "Kademelere göre program, sınıf yapısı ve rehberlik desteği.",
+          "en": "Programme, class structure and guidance support by level.",
+          "ar": "البرنامج وبنية الصفوف والدعم الإرشادي بحسب المرحلة."
+        }
+      },
+      "data": [
+        {
+          "icon": "toys",
+          "name": {
+            "tr": "Anaokulu",
+            "en": "Kindergarten",
+            "ar": "الروضة"
+          },
+          "description": {
+            "tr": "Oyun temelli öğrenme, küçük gruplar ve güvenli ortam.",
+            "en": "Play-based learning, small groups and a safe setting.",
+            "ar": "تعلّم قائم على اللعب ومجموعات صغيرة وبيئة آمنة."
+          }
+        },
+        {
+          "icon": "menu_book",
+          "name": {
+            "tr": "İlkokul",
+            "en": "Primary school",
+            "ar": "المرحلة الابتدائية"
+          },
+          "description": {
+            "tr": "Temel okuma-yazma, matematik ve fen becerileri; haftalık rehberlik saati.",
+            "en": "Core literacy, maths and science skills; a weekly guidance hour.",
+            "ar": "مهارات القراءة والكتابة والرياضيات والعلوم؛ وساعة إرشاد أسبوعية."
+          }
+        },
+        {
+          "icon": "science",
+          "name": {
+            "tr": "Ortaokul",
+            "en": "Middle school",
+            "ar": "المرحلة المتوسطة"
+          },
+          "description": {
+            "tr": "Proje tabanlı çalışmalar, laboratuvar uygulamaları ve yabancı dil.",
+            "en": "Project-based work, laboratory practice and a foreign language.",
+            "ar": "أعمال قائمة على المشاريع وتطبيقات مخبرية ولغة أجنبية."
+          }
+        },
+        {
+          "icon": "workspace_premium",
+          "name": {
+            "tr": "Lise",
+            "en": "High school",
+            "ar": "المرحلة الثانوية"
+          },
+          "description": {
+            "tr": "Alan seçimi, akademik danışmanlık ve üniversite hazırlık planı.",
+            "en": "Stream selection, academic counselling and a university preparation plan.",
+            "ar": "اختيار المسار والإرشاد الأكاديمي وخطة التحضير للجامعة."
+          }
+        },
+        {
+          "icon": "psychology",
+          "name": {
+            "tr": "Rehberlik servisi",
+            "en": "Guidance service",
+            "ar": "خدمة الإرشاد"
+          },
+          "description": {
+            "tr": "Öğrenci gelişimi için veli ile iş birliği içinde bireysel görüşmeler.",
+            "en": "Individual meetings held in cooperation with parents for student development.",
+            "ar": "لقاءات فردية بالتعاون مع أولياء الأمور لدعم نمو الطالب."
+          }
+        },
+        {
+          "icon": "directions_bus",
+          "name": {
+            "tr": "Servis ve yemek",
+            "en": "Transport and meals",
+            "ar": "النقل والوجبات"
+          },
+          "description": {
+            "tr": "Güzergâh planı ve aylık yemek listesi velilere önceden duyurulur.",
+            "en": "Route plans and the monthly menu are announced to parents in advance.",
+            "ar": "تُعلَن خطة المسارات وقائمة الوجبات الشهرية لأولياء الأمور مسبقًا."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "4z1re6",
+      "path": "values-1",
+      "local": "body",
+      "index": 12
+    },
+    {
+      "name": "SSS Akordeon 1",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça sorulan sorular",
+          "en": "Frequently asked questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak edilenler ve kısa yanıtlar.",
+          "en": "Common questions and short answers.",
+          "ar": "أسئلة متكررة وإجابات موجزة."
+        },
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Önkayıt görüşmesi nasıl yapılır?",
+            "en": "How does the pre-enrolment meeting work?",
+            "ar": "كيف يتم لقاء التسجيل المسبق؟"
+          },
+          "answer": {
+            "tr": "Önkayıt sayfasından randevu oluşturursunuz; görüşmede okulu gezer, kademe programını ve kayıt adımlarını konuşuruz.",
+            "en": "You book via the pre-enrolment page; at the meeting we tour the school and discuss the level programme and enrolment steps.",
+            "ar": "تحجز عبر صفحة التسجيل المسبق، وفي اللقاء نتجول في المدرسة ونناقش برنامج المرحلة وخطوات التسجيل."
+          }
+        },
+        {
+          "question": {
+            "tr": "Kayıt için hangi belgeler gerekir?",
+            "en": "Which documents are needed for enrolment?",
+            "ar": "ما الوثائق المطلوبة للتسجيل؟"
+          },
+          "answer": {
+            "tr": "Kimlik belgesi, önceki okuldan nakil bilgisi ve veli aydınlatma metninin onayı istenir.",
+            "en": "An ID document, transfer information from the previous school and approval of the parent privacy notice are requested.",
+            "ar": "يُطلب مستند هوية ومعلومات النقل من المدرسة السابقة وموافقة على نص إشعار الخصوصية."
+          }
+        },
+        {
+          "question": {
+            "tr": "Okulda çocuk fotoğrafı paylaşılır mı?",
+            "en": "Are photos of children shared?",
+            "ar": "هل تُنشر صور الأطفال؟"
+          },
+          "answer": {
+            "tr": "Hayır; çocuk fotoğrafı ve adı yalnızca velinin açık rızasıyla paylaşılabilir. Bu demo sitede hiç çocuk görseli yoktur.",
+            "en": "No; photos and names of children can be shared only with the parent’s explicit consent. This demo site contains no images of children.",
+            "ar": "لا؛ لا تُنشر صور الأطفال وأسماؤهم إلا بموافقة صريحة من ولي الأمر. وليس في هذا الموقع التجريبي أي صور أطفال."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sınav istatistikleri neden yok?",
+            "en": "Why are there no exam statistics?",
+            "ar": "لماذا لا توجد إحصاءات امتحانات؟"
+          },
+          "answer": {
+            "tr": "Sınav sonuçları yalnızca doğrulanabilir ve güncel olduğunda paylaşılır; demo sitede kurgusal rakam yayımlanmaz.",
+            "en": "Exam results are shared only when verifiable and current; no fictional figures are published on the demo.",
+            "ar": "لا تُنشر نتائج الامتحانات إلا إذا كانت قابلة للتحقق وحديثة؛ ولا تُنشر أرقام افتراضية في الموقع التجريبي."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "id": "ypgdx1",
+      "path": "faq-1",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "cerceve-ofset",
+        "name": {
+          "tr": "Ufuk Okulları",
+          "en": "Ufuk Schools",
+          "ar": "مدارس أوفوك"
+        },
+        "description": {
+          "tr": "Ufuk Okulları, her öğrencinin hızına saygı duyan ve veliyle şeffaf iletişimi esas alan kurgusal bir demo okuldur. Bu sitedeki kurum kodu, ad ve bilgiler kurgusaldır; çocuk fotoğrafı kullanılmamıştır.",
+          "en": "Ufuk Schools is a fictional demo school that respects each student’s pace and values open communication with parents. The institution code, names and details on this site are fictional; no photographs of children are used.",
+          "ar": "مدارس أوفوك مدرسة تجريبية افتراضية تحترم وتيرة كل طالب وتعتمد التواصل الشفاف مع أولياء الأمور. رمز المؤسسة والأسماء والبيانات في هذا الموقع افتراضية، ولم تُستخدم صور أطفال."
+        },
+        "name2": {
+          "tr": "Şeffaf iletişim",
+          "en": "Open communication",
+          "ar": "تواصل شفاف"
+        },
+        "spot2": {
+          "tr": "Veliler duyuruları ve takvimi önceden alır.",
+          "en": "Parents receive announcements and the calendar in advance.",
+          "ar": "يتلقى أولياء الأمور الإعلانات والتقويم مسبقًا."
+        },
+        "icon2": "campaign",
+        "name3": {
+          "tr": "Güvenli ortam",
+          "en": "A safe setting",
+          "ar": "بيئة آمنة"
+        },
+        "spot3": {
+          "tr": "Kontrollü giriş, nöbetçi öğretmen ve kamera güvenliği.",
+          "en": "Controlled entry, duty teachers and camera security.",
+          "ar": "دخول مضبوط ومعلمون مناوبون وأمن بالكاميرات."
+        },
+        "icon3": "shield",
+        "img": "egitim-3-yemekhane.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "za0mag",
+      "path": "module-1",
+      "data": [],
+      "index": 14
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "8px",
+        "columns": {
+          "d": 3,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Okuldan kareler",
+          "en": "Inside the school",
+          "ar": "لقطات من المدرسة"
+        },
+        "description": {
+          "tr": "Sınıf, kütüphane, laboratuvar ve bahçeden görüntüler; çocuk görseli yoktur.",
+          "en": "Views of classrooms, library, laboratory and garden; no images of children.",
+          "ar": "صور من الصفوف والمكتبة والمختبر والحديقة؛ دون صور أطفال."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "sinif",
+            "name": {
+              "tr": "Sınıflar",
+              "en": "Classrooms",
+              "ar": "الصفوف"
+            }
+          },
+          {
+            "id": "ortak",
+            "name": {
+              "tr": "Ortak alanlar",
+              "en": "Shared areas",
+              "ar": "المساحات المشتركة"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "egitim-3-hero-okul.webp",
+          "cat": "sinif",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Sınıf",
+            "en": "Classroom",
+            "ar": "الصف"
+          },
+          "alt": {
+            "tr": "Ahşap sıralı aydınlık sınıf",
+            "en": "A bright classroom with wooden desks",
+            "ar": "صف مضيء بمقاعد خشبية"
+          }
+        },
+        {
+          "img": "egitim-3-sinif-1.webp",
+          "cat": "sinif",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Ders hazırlığı",
+            "en": "Lesson set-up",
+            "ar": "تحضير الدرس"
+          },
+          "alt": {
+            "tr": "Defter ve kalemlerle hazırlanmış sıra",
+            "en": "A desk set up with notebooks and pencils",
+            "ar": "مقعد مجهز بدفاتر وأقلام"
+          }
+        },
+        {
+          "img": "egitim-3-laboratuvar.webp",
+          "cat": "sinif",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Fen laboratuvarı",
+            "en": "Science laboratory",
+            "ar": "مختبر العلوم"
+          },
+          "alt": {
+            "tr": "Mikroskop ve deney malzemeleri olan laboratuvar",
+            "en": "A laboratory with a microscope and experiment materials",
+            "ar": "مختبر فيه مجهر ومواد تجارب"
+          }
+        },
+        {
+          "img": "egitim-3-kutuphane.webp",
+          "cat": "ortak",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Kütüphane",
+            "en": "Library",
+            "ar": "المكتبة"
+          },
+          "alt": {
+            "tr": "Raflarında kitap dolu kütüphane",
+            "en": "A library with shelves full of books",
+            "ar": "مكتبة رفوفها مليئة بالكتب"
+          }
+        },
+        {
+          "img": "egitim-3-bahce.webp",
+          "cat": "ortak",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Okul bahçesi",
+            "en": "School garden",
+            "ar": "حديقة المدرسة"
+          },
+          "alt": {
+            "tr": "Ağaçlı boş okul bahçesi",
+            "en": "An empty school garden with trees",
+            "ar": "حديقة مدرسة خالية فيها أشجار"
+          }
+        },
+        {
+          "img": "egitim-3-yemekhane.webp",
+          "cat": "ortak",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Yemekhane",
+            "en": "Canteen",
+            "ar": "المقصف"
+          },
+          "alt": {
+            "tr": "Uzun masalı temiz yemekhane",
+            "en": "A clean canteen with long tables",
+            "ar": "مقصف نظيف بطاولات طويلة"
+          }
+        }
+      ],
+      "id": "x2dt80",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Ekip 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Kadro",
+          "en": "Staff",
+          "ar": "الكادر"
+        },
+        "title": {
+          "tr": "Yönetim ve rehberlik",
+          "en": "Leadership and guidance",
+          "ar": "الإدارة والإرشاد"
+        },
+        "description": {
+          "tr": "Kurgusal örnek kadro; fotoğraf kullanılmamıştır.",
+          "en": "A fictional sample team; no photographs are used.",
+          "ar": "فريق افتراضي للعرض؛ دون استخدام صور."
+        },
+        "accentText": "#ffffff",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "name": {
+            "tr": "Ayşe Karataş",
+            "en": "Ayse Karatas",
+            "ar": "عائشة كراتاش"
+          },
+          "role": {
+            "tr": "Okul müdürü",
+            "en": "Principal",
+            "ar": "مديرة المدرسة"
+          },
+          "bio": {
+            "tr": "Okulun akademik ve idari yönetimini yürütür.",
+            "en": "Leads the school’s academic and administrative management.",
+            "ar": "تقود الإدارة الأكاديمية والإدارية للمدرسة."
+          },
+          "img": ""
+        },
+        {
+          "name": {
+            "tr": "Murat Özkan",
+            "en": "Murat Ozkan",
+            "ar": "مراد أوزكان"
+          },
+          "role": {
+            "tr": "Rehber öğretmen",
+            "en": "Guidance counsellor",
+            "ar": "معلم مرشد"
+          },
+          "bio": {
+            "tr": "Öğrenci gelişimi ve veli görüşmelerini yürütür.",
+            "en": "Handles student development and parent meetings.",
+            "ar": "يتولى نمو الطلاب ولقاءات أولياء الأمور."
+          },
+          "img": ""
+        },
+        {
+          "name": {
+            "tr": "Selin Aydoğan",
+            "en": "Selin Aydogan",
+            "ar": "سيلين أيدوغان"
+          },
+          "role": {
+            "tr": "Müdür yardımcısı",
+            "en": "Vice principal",
+            "ar": "نائبة المدير"
+          },
+          "bio": {
+            "tr": "Ders programı ve etkinlik planlamasından sorumludur.",
+            "en": "Responsible for the timetable and event planning.",
+            "ar": "مسؤولة عن الجدول الدراسي وتخطيط الفعاليات."
+          },
+          "img": ""
+        }
+      ],
+      "category": "team",
+      "description": "Ekip üyeleri modülü. Fotoğraf, isim, unvan ve kısa biyografiyi responsive kart grid'inde gösterir. Fotoğraf yoksa ikon fallback, çok dilli unvan/biyografi ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "groups",
+      "id": "3yrk6j",
+      "path": "team-1",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "randevu",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 1,
+        "maxDays": 45,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 00",
+        "email": "kayit@ufukokullari.example",
+        "location": {
+          "tr": "Eğitim Cd. No: 3, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Egitim Street, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "شارع التعليم رقم 3، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Önkayıt",
+          "en": "Pre-enrolment",
+          "ar": "التسجيل المسبق"
+        },
+        "title": {
+          "tr": "Önkayıt görüşmesi planlayın",
+          "en": "Plan a pre-enrolment meeting",
+          "ar": "خطط للقاء التسجيل المسبق"
+        },
+        "description": {
+          "tr": "Kademeyi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Öğrenci bilgisi istenmez.",
+          "en": "Choose a level and a convenient day; on this demo site your request is created only in your browser. No student details are requested.",
+          "ar": "اختر المرحلة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط. لا تُطلب بيانات الطالب."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Anaokulu görüşmesi",
+              "en": "Kindergarten meeting",
+              "ar": "لقاء الروضة"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "İlkokul görüşmesi",
+              "en": "Primary school meeting",
+              "ar": "لقاء الابتدائية"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Ortaokul görüşmesi",
+              "en": "Middle school meeting",
+              "ar": "لقاء المتوسطة"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s4",
+            "name": {
+              "tr": "Lise görüşmesi",
+              "en": "High school meeting",
+              "ar": "لقاء الثانوية"
+            },
+            "duration": 45
+          }
+        ],
+        "staff": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Elif Yıldız",
+              "en": "Elif Yildiz",
+              "ar": "إليف يلدز"
+            },
+            "role": {
+              "tr": "Kıdemli danışman",
+              "en": "Senior advisor",
+              "ar": "مستشارة أولى"
+            },
+            "services": [
+              "s1",
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Murat Kaya",
+              "en": "Murat Kaya",
+              "ar": "مراد قايا"
+            },
+            "role": {
+              "tr": "Danışman",
+              "en": "Advisor",
+              "ar": "مستشار"
+            },
+            "services": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "ic",
+            "name": {
+              "tr": "İç salon",
+              "en": "Indoor",
+              "ar": "الصالة الداخلية"
+            }
+          },
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "09:00",
+          "end": "16:30",
+          "slot": 30,
+          "breaks": [
+            {
+              "start": "12:00",
+              "end": "13:00"
+            }
+          ]
+        },
+        "closed": [
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu talebin oluşturulması amacıyla işlenmesine ilişkin aydınlatma metnini okudum, anladım.",
+            "en": "I have read and understood the privacy notice on how my personal data is processed to create this request.",
+            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لإنشاء هذا الطلب وفهمته."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz alındı. Okul takvimine göre sizinle iletişime geçilecektir.",
+          "en": "Your request has been received. The school will contact you according to its calendar.",
+          "ar": "تم استلام طلبك، وستتواصل معك المدرسة وفق تقويمها."
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "4ozd8m",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 17
+    },
+    {
+      "name": "Page Desing 5",
+      "desing": {
+        "stil": "yatay-kart",
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "activetext": "#fff",
+        "textcolor": "#fff",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "8px",
+        "card_shadow": "0 10px 28px rgba(0, 0, 0, 0.08)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "colortitle": "var(--mx-site-text, #1b1b1b)",
+        "coloractive": "var(--mx-site-primary, #2563eb)",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Sayfalar",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "İletişim",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Pages",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Contact",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "الصفحات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "اتصل بنا",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "category": "page",
+      "description": "Sayfa basligi, yan menu ve icerik alani. Urun detayinda breadcrumb, olcu kartlari, teklif/WhatsApp CTA, onceki/sonraki urun navigasyonu. Kategori menusu ve responsive slide-in menu. Görsel varyant desing.stil (31 Eki 2026, yan menü bağlantıları): \"\" klasik (kutulu liste, bugünkü görünüm) · \"ikon-ustte-yuvarlak\" (ortalı karo, üstte daire ikon) · \"yatay-kart\" (ikon solda/RTL sağda, metin yanında, ayrı kartlar) · \"kenar-cizgili\" (kutu yok, başta ince çizgi; hover/aktifte primary çizgi ve içe kayma). Kart zemini bgcolor (31 Eki) korunur; eklenen renkler var(--mx-site-primary) türevi.",
+      "version": "1.4.0",
+      "icon": "web",
+      "id": "u2ujes",
+      "path": "page-desing-5",
+      "local": "body",
+      "data": [],
+      "index": 18
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Akademik takvim",
+          "en": "Academic calendar",
+          "ar": "التقويم الأكاديمي"
+        },
+        "title": {
+          "tr": "Eğitim-öğretim yılı (örnek)",
+          "en": "The school year (sample)",
+          "ar": "العام الدراسي (نموذج)"
+        },
+        "description": {
+          "tr": "Tarihler örnektir; gerçek takvim her yıl MEB takvimine göre duyurulur.",
+          "en": "Dates are samples; the real calendar is announced each year following the Ministry calendar.",
+          "ar": "التواريخ نماذج؛ ويُعلَن التقويم الفعلي كل عام وفق تقويم الوزارة."
+        },
+        "accentText": "#ffffff",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": {
+            "tr": "Eylül",
+            "en": "Sep",
+            "ar": "سبتمبر"
+          },
+          "title": {
+            "tr": "Dersler başlar",
+            "en": "Classes begin",
+            "ar": "بدء الدروس"
+          },
+          "text": {
+            "tr": "Uyum haftası ve veli tanışma toplantısı.",
+            "en": "Orientation week and parent introduction meeting.",
+            "ar": "أسبوع التهيئة ولقاء تعارف أولياء الأمور."
+          }
+        },
+        {
+          "year": {
+            "tr": "Kasım",
+            "en": "Nov",
+            "ar": "نوفمبر"
+          },
+          "title": {
+            "tr": "Birinci dönem değerlendirmesi",
+            "en": "First-term assessment",
+            "ar": "تقييم الفصل الأول"
+          },
+          "text": {
+            "tr": "Veli bilgilendirme günleri.",
+            "en": "Parent information days.",
+            "ar": "أيام إعلام أولياء الأمور."
+          }
+        },
+        {
+          "year": {
+            "tr": "Ocak",
+            "en": "Jan",
+            "ar": "يناير"
+          },
+          "title": {
+            "tr": "Yarıyıl tatili",
+            "en": "Mid-year break",
+            "ar": "عطلة منتصف العام"
+          },
+          "text": {
+            "tr": "Dönem sonu raporları paylaşılır.",
+            "en": "End-of-term reports are shared.",
+            "ar": "تُشارَك تقارير نهاية الفصل."
+          }
+        },
+        {
+          "year": {
+            "tr": "Nisan",
+            "en": "Apr",
+            "ar": "أبريل"
+          },
+          "title": {
+            "tr": "Bilim ve sanat şenliği",
+            "en": "Science and arts fair",
+            "ar": "معرض العلوم والفنون"
+          },
+          "text": {
+            "tr": "Öğrenci projeleri sergilenir.",
+            "en": "Student projects are exhibited.",
+            "ar": "تُعرض مشاريع الطلاب."
+          }
+        },
+        {
+          "year": {
+            "tr": "Haziran",
+            "en": "Jun",
+            "ar": "يونيو"
+          },
+          "title": {
+            "tr": "Yıl sonu",
+            "en": "End of year",
+            "ar": "نهاية العام"
+          },
+          "text": {
+            "tr": "Karne günü ve yaz okulu duyurusu.",
+            "en": "Report-card day and the summer school announcement.",
+            "ar": "يوم الشهادات والإعلان عن المدرسة الصيفية."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "xv78op",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "Demo Bandı",
+      "description": "Demo sitelerin her sayfasının üstünde duran, kapatılamaz bilgi şeridi: «Bu bir demo sitedir» uyarısı ve «Bu temayı iste» bağlantısı. Sayfanın en üstüne yapışır (position:sticky), sabit menüleri bant yüksekliği kadar aşağı iter (--mx-demo-bandi-h). Üç dil (TR/EN/AR), Arapçada RTL, mobilde iki satıra sarar.",
+      "version": "1.0.0",
+      "icon": "info",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "bant",
+        "uyarı",
+        "banner",
+        "rtl"
+      ],
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar#egitim",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "id": "zyyq3h",
+      "path": "demo-bandi",
+      "local": "header",
+      "data": [],
+      "index": 20
+    },
+    {
+      "name": {
+        "tr": "Menü 9 — Ortalı logo",
+        "en": "Menu 9 — Centered logo",
+        "ar": "القائمة 9 — شعار في المنتصف"
+      },
+      "description": {
+        "tr": "Üstte ince bilgi bandı (telefon, e-posta, çalışma saati, sosyal, dil seçici — desing.bilgi_bandi ile açılır/kapanır), altında ortada logo; menü öğeleri logonun iki yanına bölünür (tek sayıda ise fazlası sağa). Mobilde hamburger + tam ekran panel. desing.sticky: kaydırınca küçülen sabit çubuk (300 ms). Ek bağlantılar data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. Renkler yalnız desing anahtarı + var(--mx-site-*) — koyu mod otomatik. Üç dil + RTL.",
+        "en": "Thin info band on top (phone, email, working hours, social, language switcher — toggled by desing.bilgi_bandi), logo centered below; menu items split on both sides of the logo (odd count → extra item on the end side). Mobile: hamburger + full-screen panel. desing.sticky: fixed bar that shrinks on scroll (300 ms). Extra links via data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. Colours only from desing keys + var(--mx-site-*) — dark mode automatic. Three languages + RTL.",
+        "ar": "شريط معلومات رفيع في الأعلى (هاتف، بريد، ساعات العمل، شبكات اجتماعية، محدد اللغة — يُفعَّل عبر desing.bilgi_bandi)، وتحته الشعار في المنتصف؛ تتوزع عناصر القائمة على جانبي الشعار (العدد الفردي → العنصر الزائد في جهة النهاية). على الجوال: زر القائمة + لوحة بملء الشاشة. desing.sticky: شريط ثابت يتقلّص عند التمرير (300 ms). روابط إضافية عبر data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. الألوان من مفاتيح desing و var(--mx-site-*) فقط — الوضع الداكن تلقائي. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "align_horizontal_center",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "ortali-logo",
+        "centered",
+        "bilgi-bandi",
+        "sticky",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kutulu",
+        "logo": "{{logo}}",
+        "logo_h": "56px",
+        "max": "1200px",
+        "bilgi_bandi": true,
+        "sticky": true,
+        "showlang": true,
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "band_bg": "var(--mx-site-surface-2, #ececea)",
+        "band_text": "var(--mx-site-text, #1b1b1b)",
+        "phone": "+90 342 000 00 00",
+        "email": "kayit@ufukokullari.example",
+        "hours": {
+          "tr": "Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla",
+          "en": "Weekdays 08:30 – 17:30 · Enrolment meetings by appointment",
+          "ar": "أيام الأسبوع 08:30 – 17:30 · لقاءات التسجيل بموعد"
+        },
+        "social": []
+      },
+      "data": [],
+      "id": "u6q00f",
+      "path": "menu-9",
+      "local": "header",
+      "index": 21
+    },
+    {
+      "name": {
+        "tr": "Hero 4 — Bölünmüş",
+        "en": "Hero 4 — Split",
+        "ar": "هيرو 4 — مقسّم"
+      },
+      "description": {
+        "tr": "İki sütunlu hero: solda üst etiket, h1, paragraf, iki CTA (dolgu + çerçeve) ve güven satırı (data[]: ikon + metin); sağda görsel, arkasında token renkli organik şekil ve yüzen istatistik rozeti. desing.stil: blob | kare-kesit | cerceveli. Mobilde görsel üstte. Renkler yalnız desing anahtarı + var(--mx-site-*) — koyu mod otomatik. Üç dil + RTL.",
+        "en": "Two-column hero: eyebrow, h1, paragraph, two CTAs (filled + outline) and a trust row (data[]: icon + text) on the start side; image with a token-coloured organic shape and a floating stat badge on the end side. desing.stil: blob | kare-kesit | cerceveli. Image stacks on top on mobile. Colours come only from desing keys + var(--mx-site-*) — dark mode automatic. Three languages + RTL.",
+        "ar": "هيرو بعمودين: تسمية علوية وعنوان h1 وفقرة وزرّان (ممتلئ + إطار) وسطر الثقة (data[]: أيقونة + نص) في جهة البداية؛ صورة خلفها شكل عضوي بلون الرمز وشارة إحصائية عائمة في جهة النهاية. desing.stil: blob | kare-kesit | cerceveli. على الجوال تظهر الصورة أولًا. الألوان من مفاتيح desing و var(--mx-site-*) فقط — الوضع الداكن تلقائي. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hero",
+      "tags": [
+        "hero",
+        "split",
+        "bolunmus",
+        "cta",
+        "guven",
+        "blob",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cerceveli",
+        "max": "1200px",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "20px",
+        "eyebrow": {
+          "tr": "Özel okul · Dört kademe · Gaziantep",
+          "en": "Private school · Four levels · Gaziantep",
+          "ar": "مدرسة خاصة · أربع مراحل · غازي عنتاب"
+        },
+        "title": {
+          "tr": "Planlı eğitim, güvenli kampüs, açık iletişim",
+          "en": "Planned education, a safe campus, open communication",
+          "ar": "تعليم مخطط وحرم آمن وتواصل مفتوح"
+        },
+        "metin": {
+          "tr": "Ufuk Okulları; anaokulundan liseye 12 kişilik sınıflar, haftalık rehberlik saati ve velilere önceden duyurulan takvimle çalışan kurgusal bir demo okuldur.",
+          "en": "Ufuk Schools is a fictional demo school with classes of 12 from kindergarten to high school, a weekly guidance hour and a calendar announced to parents in advance.",
+          "ar": "مدارس أوفوك مدرسة تجريبية افتراضية بصفوف من 12 طالبًا من الروضة إلى الثانوية وساعة إرشاد أسبوعية وتقويم يُعلَن لأولياء الأمور مسبقًا."
+        },
+        "cta1": {
+          "tr": "Önkayıt görüşmesi",
+          "en": "Pre-enrolment meeting",
+          "ar": "لقاء التسجيل المسبق"
+        },
+        "cta1_url": "on-kayit",
+        "cta2": {
+          "tr": "Kademeler",
+          "en": "Levels",
+          "ar": "المراحل"
+        },
+        "cta2_url": "kademeler",
+        "img": "egitim-3-laboratuvar.webp",
+        "alt": {
+          "tr": "Mikroskop ve deney malzemeleri olan fen laboratuvarı",
+          "en": "A science laboratory with a microscope and experiment materials",
+          "ar": "مختبر علوم فيه مجهر ومواد تجارب"
+        },
+        "badge_icon": "groups",
+        "badge_value": "12",
+        "badge_label": {
+          "tr": "öğrenciye kadar sınıf",
+          "en": "students per class at most",
+          "ar": "طالبًا كحد أقصى في الصف"
+        }
+      },
+      "data": [
+        {
+          "icon": "toys",
+          "text": {
+            "tr": "Anaokulu",
+            "en": "Kindergarten",
+            "ar": "الروضة"
+          }
+        },
+        {
+          "icon": "menu_book",
+          "text": {
+            "tr": "İlkokul",
+            "en": "Primary school",
+            "ar": "المرحلة الابتدائية"
+          }
+        },
+        {
+          "icon": "science",
+          "text": {
+            "tr": "Ortaokul",
+            "en": "Middle school",
+            "ar": "المرحلة المتوسطة"
+          }
+        }
+      ],
+      "id": "n87y6z",
+      "path": "hero-4",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Sekmeli Hizmetler",
+      "description": "Hizmet anlatımı sekmelerle: sol/üst sekme listesi (ikon + ad), seçili hizmetin görseli + açıklama + madde listesi + CTA. Mobilde akordeon. ARIA tabs kalıbı (ok tuşları, Home/End, RTL'de yön ters). desing.stil: dikey | yatay-ust | kart-gecis. Veri: data[] = [{ikon, ad{tr,en,ar}, ozet{}, maddeler[{}], img, alt{}, url}]. Renkler yalnız token (var(--mx-site-*)); koyu mod otomatik. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hizmet",
+      "tags": [
+        "hizmet",
+        "sekme",
+        "tabs",
+        "akordeon",
+        "services",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay-ust",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Kademeler",
+          "en": "Levels",
+          "ar": "المراحل"
+        },
+        "title": {
+          "tr": "Her yaşa uygun eğitim kademesi",
+          "en": "A level for every age",
+          "ar": "مرحلة تعليمية لكل عمر"
+        },
+        "description": {
+          "tr": "Kademelere göre program, sınıf yapısı ve rehberlik desteği.",
+          "en": "Programme, class structure and guidance support by level.",
+          "ar": "البرنامج وبنية الصفوف والدعم الإرشادي بحسب المرحلة."
+        },
+        "ctaLabel": {
+          "tr": "Detaylı bilgi",
+          "en": "Learn more",
+          "ar": "مزيد من التفاصيل"
+        },
+        "tabsLabel": {
+          "tr": "Hizmet sekmeleri",
+          "en": "Service tabs",
+          "ar": "تبويبات الخدمات"
+        },
+        "featuresLabel": {
+          "tr": "Neler dahil?",
+          "en": "What's included?",
+          "ar": "ماذا يشمل؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "toys",
+          "ad": {
+            "tr": "Anaokulu",
+            "en": "Kindergarten",
+            "ar": "الروضة"
+          },
+          "ozet": {
+            "tr": "Oyun temelli öğrenme, küçük gruplar ve güvenli ortam.",
+            "en": "Play-based learning, small groups and a safe setting.",
+            "ar": "تعلّم قائم على اللعب ومجموعات صغيرة وبيئة آمنة."
+          },
+          "maddeler": [
+            {
+              "tr": "Oyun temelli program",
+              "en": "Play-based programme",
+              "ar": "برنامج قائم على اللعب"
+            },
+            {
+              "tr": "En çok 12 çocuk",
+              "en": "At most 12 children",
+              "ar": "حد أقصى 12 طفلًا"
+            },
+            {
+              "tr": "Günlük veli notu",
+              "en": "Daily parent note",
+              "ar": "ملاحظة يومية لولي الأمر"
+            }
+          ],
+          "img": "egitim-3-hero-okul.webp",
+          "alt": {
+            "tr": "Ahşap sıralı aydınlık sınıf",
+            "en": "A bright classroom with wooden desks",
+            "ar": "صف مضيء بمقاعد خشبية"
+          },
+          "url": "kademeler"
+        },
+        {
+          "ikon": "menu_book",
+          "ad": {
+            "tr": "İlkokul",
+            "en": "Primary school",
+            "ar": "المرحلة الابتدائية"
+          },
+          "ozet": {
+            "tr": "Temel okuma-yazma, matematik ve fen becerileri; haftalık rehberlik saati.",
+            "en": "Core literacy, maths and science skills; a weekly guidance hour.",
+            "ar": "مهارات القراءة والكتابة والرياضيات والعلوم؛ وساعة إرشاد أسبوعية."
+          },
+          "maddeler": [
+            {
+              "tr": "Okuma-yazma ve matematik temeli",
+              "en": "Literacy and maths foundation",
+              "ar": "أساس القراءة والكتابة والرياضيات"
+            },
+            {
+              "tr": "Haftalık rehberlik saati",
+              "en": "Weekly guidance hour",
+              "ar": "ساعة إرشاد أسبوعية"
+            },
+            {
+              "tr": "İngilizce",
+              "en": "English",
+              "ar": "الإنجليزية"
+            }
+          ],
+          "img": "egitim-3-sinif-1.webp",
+          "alt": {
+            "tr": "Defter ve kalemlerle hazırlanmış sıra",
+            "en": "A desk set up with notebooks and pencils",
+            "ar": "مقعد مجهز بدفاتر وأقلام"
+          },
+          "url": "kademeler"
+        },
+        {
+          "ikon": "science",
+          "ad": {
+            "tr": "Ortaokul",
+            "en": "Middle school",
+            "ar": "المرحلة المتوسطة"
+          },
+          "ozet": {
+            "tr": "Proje tabanlı çalışmalar, laboratuvar uygulamaları ve yabancı dil.",
+            "en": "Project-based work, laboratory practice and a foreign language.",
+            "ar": "أعمال قائمة على المشاريع وتطبيقات مخبرية ولغة أجنبية."
+          },
+          "maddeler": [
+            {
+              "tr": "Proje tabanlı dersler",
+              "en": "Project-based lessons",
+              "ar": "دروس قائمة على المشاريع"
+            },
+            {
+              "tr": "Laboratuvar uygulamaları",
+              "en": "Laboratory practice",
+              "ar": "تطبيقات مخبرية"
+            },
+            {
+              "tr": "İkinci yabancı dil",
+              "en": "Second foreign language",
+              "ar": "لغة أجنبية ثانية"
+            }
+          ],
+          "img": "egitim-3-laboratuvar.webp",
+          "alt": {
+            "tr": "Mikroskop ve deney malzemeleri olan laboratuvar",
+            "en": "A laboratory with a microscope and experiment materials",
+            "ar": "مختبر فيه مجهر ومواد تجارب"
+          },
+          "url": "kademeler"
+        },
+        {
+          "ikon": "workspace_premium",
+          "ad": {
+            "tr": "Lise",
+            "en": "High school",
+            "ar": "المرحلة الثانوية"
+          },
+          "ozet": {
+            "tr": "Alan seçimi, akademik danışmanlık ve üniversite hazırlık planı.",
+            "en": "Stream selection, academic counselling and a university preparation plan.",
+            "ar": "اختيار المسار والإرشاد الأكاديمي وخطة التحضير للجامعة."
+          },
+          "maddeler": [
+            {
+              "tr": "Alan seçimi danışmanlığı",
+              "en": "Stream-selection counselling",
+              "ar": "إرشاد اختيار المسار"
+            },
+            {
+              "tr": "Üniversite hazırlık planı",
+              "en": "University preparation plan",
+              "ar": "خطة التحضير للجامعة"
+            },
+            {
+              "tr": "Akademik danışman",
+              "en": "Academic adviser",
+              "ar": "مستشار أكاديمي"
+            }
+          ],
+          "img": "egitim-3-kutuphane.webp",
+          "alt": {
+            "tr": "Raflarında kitap dolu kütüphane",
+            "en": "A library with shelves full of books",
+            "ar": "مكتبة رفوفها مليئة بالكتب"
+          },
+          "url": "kademeler"
+        },
+        {
+          "ikon": "psychology",
+          "ad": {
+            "tr": "Rehberlik servisi",
+            "en": "Guidance service",
+            "ar": "خدمة الإرشاد"
+          },
+          "ozet": {
+            "tr": "Öğrenci gelişimi için veli ile iş birliği içinde bireysel görüşmeler.",
+            "en": "Individual meetings held in cooperation with parents for student development.",
+            "ar": "لقاءات فردية بالتعاون مع أولياء الأمور لدعم نمو الطالب."
+          },
+          "maddeler": [
+            {
+              "tr": "Bireysel görüşme",
+              "en": "Individual meetings",
+              "ar": "لقاءات فردية"
+            },
+            {
+              "tr": "Veli iş birliği",
+              "en": "Parent cooperation",
+              "ar": "تعاون مع أولياء الأمور"
+            }
+          ],
+          "img": "egitim-3-bahce.webp",
+          "alt": {
+            "tr": "Ağaçlı boş okul bahçesi",
+            "en": "An empty school garden with trees",
+            "ar": "حديقة مدرسة خالية فيها أشجار"
+          },
+          "url": "kademeler"
+        },
+        {
+          "ikon": "directions_bus",
+          "ad": {
+            "tr": "Servis ve yemek",
+            "en": "Transport and meals",
+            "ar": "النقل والوجبات"
+          },
+          "ozet": {
+            "tr": "Güzergâh planı ve aylık yemek listesi velilere önceden duyurulur.",
+            "en": "Route plans and the monthly menu are announced to parents in advance.",
+            "ar": "تُعلَن خطة المسارات وقائمة الوجبات الشهرية لأولياء الأمور مسبقًا."
+          },
+          "maddeler": [
+            {
+              "tr": "Güzergâh planı",
+              "en": "Route plan",
+              "ar": "خطة المسارات"
+            },
+            {
+              "tr": "Aylık yemek listesi",
+              "en": "Monthly menu",
+              "ar": "قائمة وجبات شهرية"
+            }
+          ],
+          "img": "egitim-3-yemekhane.webp",
+          "alt": {
+            "tr": "Uzun masalı temiz yemekhane",
+            "en": "A clean canteen with long tables",
+            "ar": "مقصف نظيف بطاولات طويلة"
+          },
+          "url": "kademeler"
+        }
+      ],
+      "id": "bwkwts",
+      "path": "hizmet-sekmeli",
+      "local": "body",
+      "index": 23
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "desing": {
+        "stil": "serit-renkli",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 4,
+          "suffix": "",
+          "label": {
+            "tr": "Eğitim kademesi",
+            "en": "Education levels",
+            "ar": "مراحل تعليمية"
+          },
+          "icon": "school"
+        },
+        {
+          "number": 12,
+          "suffix": "",
+          "label": {
+            "tr": "Öğrenci sayısına kadar sınıf",
+            "en": "Max students per class",
+            "ar": "حد أقصى للطلاب في الصف"
+          },
+          "icon": "groups"
+        },
+        {
+          "number": 3,
+          "suffix": "",
+          "label": {
+            "tr": "Dil: TR · EN · AR",
+            "en": "Languages: TR · EN · AR",
+            "ar": "اللغات: TR · EN · AR"
+          },
+          "icon": "translate"
+        },
+        {
+          "number": 1,
+          "suffix": "",
+          "label": {
+            "tr": "Rehberlik servisi",
+            "en": "Guidance service",
+            "ar": "خدمة إرشاد"
+          },
+          "icon": "psychology"
+        }
+      ],
+      "category": "stats",
+      "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.1.0",
+      "icon": "monitoring",
+      "id": "d3rmbc",
+      "path": "stats-1",
+      "local": "body",
+      "index": 24
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Kayıt süreci",
+          "en": "Enrolment",
+          "ar": "التسجيل"
+        },
+        "title": {
+          "tr": "Önkayıttan ders zilinin çalmasına",
+          "en": "From pre-enrolment to the first bell",
+          "ar": "من التسجيل المسبق إلى أول جرس"
+        },
+        "description": {
+          "tr": "Dört adımda kayıt.",
+          "en": "Enrolment in four steps.",
+          "ar": "التسجيل في أربع خطوات."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "no": 1,
+          "baslik": {
+            "tr": "Önkayıt görüşmesi",
+            "en": "Pre-enrolment meeting",
+            "ar": "لقاء التسجيل المسبق"
+          },
+          "metin": {
+            "tr": "Randevu alın, okulu ve kademeyi birlikte gezelim.",
+            "en": "Book a visit and we will tour the school and level together.",
+            "ar": "احجز موعدًا لنتجول معًا في المدرسة والمرحلة."
+          },
+          "ikon": "forum"
+        },
+        {
+          "no": 2,
+          "baslik": {
+            "tr": "Tanışma ve değerlendirme",
+            "en": "Introduction and assessment",
+            "ar": "التعارف والتقييم"
+          },
+          "metin": {
+            "tr": "Öğrenciyle kısa bir tanışma ve seviye görüşmesi yapılır.",
+            "en": "A short introduction and level meeting is held with the student.",
+            "ar": "يُجرى لقاء تعارف قصير ولقاء لتحديد المستوى مع الطالب."
+          },
+          "ikon": "draw"
+        },
+        {
+          "no": 3,
+          "baslik": {
+            "tr": "Kayıt belgeleri",
+            "en": "Enrolment documents",
+            "ar": "وثائق التسجيل"
+          },
+          "metin": {
+            "tr": "Gerekli belgeler ve veli aydınlatma metni tamamlanır.",
+            "en": "Required documents and the parent privacy notice are completed.",
+            "ar": "تُستكمل الوثائق المطلوبة ونص إشعار الخصوصية لولي الأمر."
+          },
+          "ikon": "construction"
+        },
+        {
+          "no": 4,
+          "baslik": {
+            "tr": "Uyum haftası",
+            "en": "Orientation week",
+            "ar": "أسبوع التهيئة"
+          },
+          "metin": {
+            "tr": "Yeni öğrenciler için uyum programı uygulanır.",
+            "en": "An orientation programme runs for new students.",
+            "ar": "يُطبَّق برنامج تهيئة للطلاب الجدد."
+          },
+          "ikon": "verified"
+        }
+      ],
+      "id": "fk2orr",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 25
+    },
+    {
+      "name": "Bant CTA (zengin) — CTA 3",
+      "description": "Tam genişlik iki sütunlu çağrı bandı: sol h2 + metin + 2 buton; sağ görsel/illüstrasyon ya da telefon-WhatsApp kartı (numara, saat). Arka plan: token zemin + hafif gradient katmanı + dekoratif daireler (CSS). desing.stil: gradient | gorselli (sağ sütun tam yükseklik görsel) | cerceveli-kart (içerik sayfa zemini üstünde yüzen kart). desing.sag: whatsapp | gorsel | yok. Zemin + yazı ÇİFT token (bgcolor = birincil, textcolor = birincil kontrast); WhatsApp kartı opak yüzey (cardbg/cardtext). Üç dil + RTL; koyu mod paletten.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "cta",
+      "tags": [
+        "cta",
+        "çağrı",
+        "whatsapp",
+        "bant",
+        "banner",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cerceveli-kart",
+        "sag": "whatsapp",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 97%, var(--mx-site-primary, #2563eb))",
+        "pagebg": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "cardtext": "var(--mx-site-text, #1b1b1b)",
+        "cardmuted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "24px",
+        "title": {
+          "tr": "Önkayıt görüşmesi için randevu alın",
+          "en": "Book a pre-enrolment meeting",
+          "ar": "احجز لقاء التسجيل المسبق"
+        },
+        "text": {
+          "tr": "Önkayıt görüşmesi için randevu oluşturun.",
+          "en": "Book a pre-enrolment meeting.",
+          "ar": "احجز لقاء التسجيل المسبق."
+        },
+        "btn1Label": {
+          "tr": "Önkayıt",
+          "en": "Pre-enrolment",
+          "ar": "التسجيل المسبق"
+        },
+        "btn1Url": "on-kayit",
+        "btn2Label": {
+          "tr": "Kurum bilgileri",
+          "en": "Institution details",
+          "ar": "بيانات المؤسسة"
+        },
+        "btn2Url": "kurum-bilgileri",
+        "number": "903420000000",
+        "numberText": "+90 342 000 00 00",
+        "waLabel": {
+          "tr": "Mesaj gönder",
+          "en": "Send a message",
+          "ar": "إرسال رسالة"
+        },
+        "waTitle": {
+          "tr": "WhatsApp ile yazın",
+          "en": "Message us on WhatsApp",
+          "ar": "راسلنا على واتساب"
+        },
+        "hours": {
+          "tr": "Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla",
+          "en": "Weekdays 08:30 – 17:30 · Enrolment meetings by appointment",
+          "ar": "أيام الأسبوع 08:30 – 17:30 · لقاءات التسجيل بموعد"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Working hours",
+          "ar": "ساعات العمل"
+        },
+        "waMessage": {
+          "tr": "Merhaba, bilgi almak istiyorum.",
+          "en": "Hello, I would like some information.",
+          "ar": "مرحبًا، أرغب في الحصول على معلومات."
+        },
+        "img": "",
+        "alt": {
+          "tr": "Ekibimizle görüşme",
+          "en": "Meeting with our team",
+          "ar": "اجتماع مع فريقنا"
+        }
+      },
+      "data": [],
+      "id": "stz03q",
+      "path": "cta-3",
+      "local": "body",
+      "index": 26
+    },
+    {
+      "name": {
+        "tr": "İletişim 7 — Bölünmüş panel",
+        "en": "Contact 7 — Split panel",
+        "ar": "اتصال 7 — لوحة مقسّمة"
+      },
+      "description": {
+        "tr": "Bölünmüş iletişim: koyu bilgi paneli (adres · telefon · e-posta · saat · sosyal · harita bağlantısı) + form (ad, e-posta, telefon, konu, mesaj, zorunlu KVKK onayı). Gönderim mailto: ya da WhatsApp hazır mesaj (desing.gonderim). Üç görsel varyant (desing.stil): bolunmus · kart-ustte · harita-arka (iframe arka plan, yüzen form). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Split contact section: dark info panel (address · phone · e-mail · hours · social · map link) + form (name, e-mail, phone, subject, message, required privacy consent). Submission via mailto: or WhatsApp prefilled message (desing.gonderim). Three visual variants (desing.stil): bolunmus · kart-ustte · harita-arka (iframe background, floating form). Three languages, RTL, dark mode via tokens.",
+        "ar": "قسم اتصال مقسّم: لوحة معلومات داكنة (العنوان · الهاتف · البريد · ساعات العمل · التواصل الاجتماعي · رابط الخريطة) + نموذج (الاسم، البريد، الهاتف، الموضوع، الرسالة، موافقة خصوصية إلزامية). الإرسال عبر mailto: أو رسالة واتساب جاهزة. ثلاثة أنماط مرئية، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "form",
+        "whatsapp",
+        "mailto",
+        "kvkk",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kart-ustte",
+        "gonderim": "mailto",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "panelbg": "color-mix(in srgb, #0f172a 82%, var(--mx-site-primary, #2563eb))",
+        "paneltext": "#f1f5f9",
+        "panelmuted": "color-mix(in srgb, #f1f5f9 74%, transparent)",
+        "errcolor": "var(--mx-color-danger, #b42318)",
+        "radius": "16px",
+        "title": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "description": {
+          "tr": "Sorularınız için bize yazın; demo sitede form tarayıcınızdan e-posta/WhatsApp ile açılır.",
+          "en": "Write to us with your questions; on this demo site the form opens your e-mail or WhatsApp app.",
+          "ar": "اكتب لنا أسئلتك؛ في هذا الموقع التجريبي يفتح النموذج تطبيق البريد أو واتساب."
+        },
+        "panelTitle": "Ufuk Okulları",
+        "panelText": {
+          "tr": "Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)",
+          "en": "Ufuk Schools: four levels from kindergarten to high school, classes of 12, pre-enrolment meetings and the academic calendar. (Demo site)",
+          "ar": "مدارس أوفوك: أربع مراحل من الروضة إلى الثانوية وصفوف من 12 طالبًا ولقاء التسجيل المسبق والتقويم الأكاديمي. (موقع تجريبي)"
+        },
+        "address": {
+          "tr": "Eğitim Cd. No: 3, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Egitim Street, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "شارع التعليم رقم 3، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "whatsapp": "903420000000",
+        "email": "kayit@ufukokullari.example",
+        "hours": {
+          "tr": "Hafta içi 08:30 – 17:30 · Kayıt görüşmeleri randevuyla",
+          "en": "Weekdays 08:30 – 17:30 · Enrolment meetings by appointment",
+          "ar": "أيام الأسبوع 08:30 – 17:30 · لقاءات التسجيل بموعد"
+        },
+        "mapUrl": "",
+        "mapEmbed": "",
+        "addressTitle": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "phoneTitle": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "emailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "hoursTitle": {
+          "tr": "Çalışma Saatleri",
+          "en": "Working Hours",
+          "ar": "ساعات العمل"
+        },
+        "mapLink": {
+          "tr": "Haritada gör",
+          "en": "View on map",
+          "ar": "عرض على الخريطة"
+        },
+        "mapTitle": {
+          "tr": "Konum haritası",
+          "en": "Location map",
+          "ar": "خريطة الموقع"
+        },
+        "socialTitle": {
+          "tr": "Bizi takip edin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        },
+        "social": [],
+        "formTitle": {
+          "tr": "Mesaj Gönderin",
+          "en": "Send a Message",
+          "ar": "أرسل رسالة"
+        },
+        "nameLabel": {
+          "tr": "Ad Soyad",
+          "en": "Full name",
+          "ar": "الاسم الكامل"
+        },
+        "emailLabel": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "subjectLabel": {
+          "tr": "Konu",
+          "en": "Subject",
+          "ar": "الموضوع"
+        },
+        "subjectPlaceholder": {
+          "tr": "Konu seçin",
+          "en": "Choose a subject",
+          "ar": "اختر الموضوع"
+        },
+        "subjects": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Anaokulu görüşmesi",
+              "en": "Kindergarten meeting",
+              "ar": "لقاء الروضة"
+            }
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "İlkokul görüşmesi",
+              "en": "Primary school meeting",
+              "ar": "لقاء الابتدائية"
+            }
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Ortaokul görüşmesi",
+              "en": "Middle school meeting",
+              "ar": "لقاء المتوسطة"
+            }
+          },
+          {
+            "id": "s4",
+            "name": {
+              "tr": "Lise görüşmesi",
+              "en": "High school meeting",
+              "ar": "لقاء الثانوية"
+            }
+          },
+          {
+            "id": "diger",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "messageLabel": {
+          "tr": "Mesajınız",
+          "en": "Your message",
+          "ar": "رسالتك"
+        },
+        "kvkkText": {
+          "tr": "Kişisel verilerimin iletişim amacıyla işlenmesine ilişkin aydınlatma metnini okudum, onaylıyorum.",
+          "en": "I have read and accept the privacy notice on processing my personal data for contact purposes.",
+          "ar": "قرأتُ إشعار الخصوصية بشأن معالجة بياناتي الشخصية لأغراض التواصل وأوافق عليه."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "submitText": {
+          "tr": "Gönder",
+          "en": "Send",
+          "ar": "إرسال"
+        },
+        "submitWhatsappText": {
+          "tr": "WhatsApp ile gönder",
+          "en": "Send via WhatsApp",
+          "ar": "إرسال عبر واتساب"
+        },
+        "mailSubject": {
+          "tr": "Web sitesi iletişim formu",
+          "en": "Website contact form",
+          "ar": "نموذج الاتصال بالموقع"
+        },
+        "optionalText": {
+          "tr": "isteğe bağlı",
+          "en": "optional",
+          "ar": "اختياري"
+        },
+        "errRequired": {
+          "tr": "Bu alan zorunludur.",
+          "en": "This field is required.",
+          "ar": "هذا الحقل إلزامي."
+        },
+        "errEmail": {
+          "tr": "Geçerli bir e-posta adresi girin.",
+          "en": "Enter a valid e-mail address.",
+          "ar": "أدخل بريدًا إلكترونيًا صالحًا."
+        },
+        "errPhone": {
+          "tr": "Geçerli bir telefon numarası girin.",
+          "en": "Enter a valid phone number.",
+          "ar": "أدخل رقم هاتف صالحًا."
+        },
+        "errKvkk": {
+          "tr": "Devam etmek için onay kutusunu işaretleyin.",
+          "en": "Tick the consent box to continue.",
+          "ar": "حدّد خانة الموافقة للمتابعة."
+        },
+        "errSummary": {
+          "tr": "Lütfen işaretli alanları düzeltin.",
+          "en": "Please fix the highlighted fields.",
+          "ar": "يرجى تصحيح الحقول المحددة."
+        },
+        "okText": {
+          "tr": "E-posta uygulamanız açılıyor; mesajı oradan gönderebilirsiniz.",
+          "en": "Your e-mail app is opening; you can send the message from there.",
+          "ar": "يتم فتح تطبيق البريد الإلكتروني؛ يمكنك إرسال الرسالة من هناك."
+        },
+        "okWhatsappText": {
+          "tr": "WhatsApp açılıyor; hazır mesajı gönderebilirsiniz.",
+          "en": "WhatsApp is opening; you can send the prepared message.",
+          "ar": "يتم فتح واتساب؛ يمكنك إرسال الرسالة الجاهزة."
+        },
+        "waIntro": {
+          "tr": "Merhaba, web sitenizden yazıyorum.",
+          "en": "Hello, I am writing from your website.",
+          "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
+        }
+      },
+      "data": [],
+      "id": "00qgkf",
+      "path": "contact-7",
+      "local": "body",
+      "index": 27
+    },
+    {
+      "name": "Footer 9 — Kurumsal",
+      "desing": {
+        "showlang": true,
+        "maxpages": 8,
+        "bgcolor": "var(--mx-site-surface-2, #1f2937)",
+        "color": "var(--mx-site-text, #f3f4f6)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 72%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 18%, transparent)",
+        "logo_maxh": "56px",
+        "logo_plate": false,
+        "about": {
+          "tr": "Ufuk Okulları: anaokulundan liseye dört kademe, 12 kişilik sınıflar, önkayıt görüşmesi ve akademik takvim. (Demo site)",
+          "en": "Ufuk Schools: four levels from kindergarten to high school, classes of 12, pre-enrolment meetings and the academic calendar. (Demo site)",
+          "ar": "مدارس أوفوك: أربع مراحل من الروضة إلى الثانوية وصفوف من 12 طالبًا ولقاء التسجيل المسبق والتقويم الأكاديمي. (موقع تجريبي)"
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_social": {
+          "tr": "Bizi Takip Edin",
+          "en": "Follow Us",
+          "ar": "تابعنا"
+        },
+        "address": {
+          "tr": "Eğitim Cd. No: 3, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Egitim Street, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "شارع التعليم رقم 3، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "kayit@ufukokullari.example",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "Gizlilik",
+              "en": "Privacy",
+              "ar": "الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "text": {
+              "tr": "Kişisel veriler",
+              "en": "Personal data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        }
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Kurumsal alt bilgi (footer): 4 sütun — marka (logo + kısa metin), sayfalar, iletişim (address/phone/email; boşsa setting.phone/email, hiçbiri yoksa sütun gizli), sosyal (social: [{ad,url}]; boşsa gizli). Alt şerit: telif (yıl otomatik), yasal bağlantılar (legal: [{text,href}], dil önekli), dil seçici. Renkler yalnız desing anahtarı + var(--mx-site-*, fallback): token'sız sitede fallback, colorScheme:auto sitede koyu mod uyumlu. logo_maxh / logo_plate footer-3 ile aynı.",
+      "version": "1.0.0",
+      "icon": "footer",
+      "id": "r7ifcp",
+      "path": "footer-9",
+      "local": "footer",
+      "index": 28
+    }
+  ]
+}

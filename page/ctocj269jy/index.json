@@ -1,0 +1,39 @@
+{
+  "id": "ctocj269jy",
+  "name": {
+    "tr": "Akademik Takvim",
+    "en": "Academic Calendar",
+    "ar": "التقويم الأكاديمي"
+  },
+  "description": {
+    "tr": "Eğitim-öğretim yılının örnek takvimi.",
+    "en": "A sample calendar of the school year.",
+    "ar": "تقويم نموذجي للعام الدراسي."
+  },
+  "keyword": {
+    "tr": "akademik takvim",
+    "en": "academic calendar",
+    "ar": "التقويم الأكاديمي"
+  },
+  "path": "akademik-takvim",
+  "icon": "calendar_month",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "xv78op"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Akademik Takvim",
+    "en": "Academic Calendar",
+    "ar": "التقويم الأكاديمي"
+  },
+  "date": "2026-10-31T14:32:44.570Z",
+  "update": "2026-11-05T22:24:51.519Z"
+}

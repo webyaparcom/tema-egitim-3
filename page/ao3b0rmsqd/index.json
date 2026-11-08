@@ -1,0 +1,41 @@
+{
+  "id": "ao3b0rmsqd",
+  "name": {
+    "tr": "Kademeler",
+    "en": "Levels",
+    "ar": "المراحل"
+  },
+  "description": {
+    "tr": "Kademelere göre program, sınıf yapısı ve rehberlik desteği.",
+    "en": "Programme, class structure and guidance support by level.",
+    "ar": "البرنامج وبنية الصفوف والدعم الإرشادي بحسب المرحلة."
+  },
+  "keyword": {
+    "tr": "özel okul, anaokulu, ilkokul, lise",
+    "en": "private school, kindergarten, primary, high school",
+    "ar": "مدرسة خاصة، روضة، ابتدائية، ثانوية"
+  },
+  "path": "kademeler",
+  "icon": "school",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "4z1re6",
+      "fk2orr",
+      "stz03q"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kademeler",
+    "en": "Levels",
+    "ar": "المراحل"
+  },
+  "date": "2026-10-31T14:32:44.567Z",
+  "update": "2026-11-05T22:24:51.515Z"
+}
