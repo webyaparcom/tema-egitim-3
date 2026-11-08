@@ -1,0 +1,41 @@
+{
+  "id": "1cut0rw4ja",
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Ufuk Okulları, her öğrencinin hızına saygı duyan ve veliyle şeffaf iletişimi esas alan kurgusal bir demo okuldur. Bu sitedeki kurum kodu, ad ve bilgiler kurgusaldır; çocuk fotoğrafı kullanılmamıştır.",
+    "en": "Ufuk Schools is a fictional demo school that respects each student’s pace and values open communication with parents. The institution code, names and details on this site are fictional; no photographs of children are used.",
+    "ar": "مدارس أوفوك مدرسة تجريبية افتراضية تحترم وتيرة كل طالب وتعتمد التواصل الشفاف مع أولياء الأمور. رمز المؤسسة والأسماء والبيانات في هذا الموقع افتراضية، ولم تُستخدم صور أطفال."
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "path": "hakkimizda",
+  "icon": "info",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "za0mag",
+      "d3rmbc",
+      "3yrk6j"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "date": "2026-10-31T14:32:44.586Z",
+  "update": "2026-11-05T22:24:51.530Z"
+}

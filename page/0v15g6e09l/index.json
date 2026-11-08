@@ -1,0 +1,43 @@
+{
+  "id": "0v15g6e09l",
+  "name": {
+    "tr": "Kurum Bilgileri",
+    "en": "Institution Details",
+    "ar": "بيانات المؤسسة"
+  },
+  "description": {
+    "tr": "MEB kurum kodu ve açma izni bilgisi.",
+    "en": "Ministry institution code and opening-permit information.",
+    "ar": "رمز المؤسسة وبيانات ترخيص الافتتاح."
+  },
+  "keyword": {
+    "tr": "kurum kodu, izin",
+    "en": "institution code, permit",
+    "ar": "رمز المؤسسة، ترخيص"
+  },
+  "path": "kurum-bilgileri",
+  "icon": "badge",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "u2ujes"
+    ],
+    "footer": []
+  },
+  "index": 8,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kurum izin bilgileri</h2><p>Ufuk Özel Okulları, bu demo sitede Millî Eğitim Bakanlığına bağlı özel okul olarak kurgulanmıştır. Kurum kodu ve açma izni numarası örnektir (DEMO) ve gerçek bir kuruma ait değildir.</p><p>Kurum adı, kodu ve izin bilgileri her zaman Bakanlık kayıtlarıyla birebir aynı yazılır; kapatılmış kurum türü adları kullanılmaz.</p><p><em>Demo sitedir; içerik kurgusaldır.</em></p>",
+    "en": "<h2>Institution permit details</h2><p>On this demo site Ufuk Private Schools is imagined as a private school under the Ministry of National Education. The institution code and opening permit number are samples (DEMO) and do not belong to a real institution.</p><p>The institution name, code and permit details are always written exactly as in the Ministry records; names of discontinued institution types are never used.</p><p><em>This is a demo site; the content is fictional.</em></p>",
+    "ar": "<h2>بيانات ترخيص المؤسسة</h2><p>تُصوَّر مدارس أوفوك الخاصة في هذا الموقع التجريبي كمدرسة خاصة تابعة لوزارة التربية الوطنية. رمز المؤسسة ورقم ترخيص الافتتاح أمثلة (DEMO) ولا يخصان مؤسسة حقيقية.</p><p>تُكتب بيانات اسم المؤسسة ورمزها وترخيصها دائمًا مطابقة تمامًا لسجلات الوزارة، ولا تُستخدم أسماء أنواع المؤسسات الملغاة.</p><p><em>موقع تجريبي والمحتوى افتراضي.</em></p>"
+  },
+  "title": {
+    "tr": "Kurum Bilgileri",
+    "en": "Institution Details",
+    "ar": "بيانات المؤسسة"
+  },
+  "date": "2026-10-31T14:32:44.572Z",
+  "update": "2026-11-05T22:24:51.557Z"
+}
