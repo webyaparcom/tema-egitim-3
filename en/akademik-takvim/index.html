@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/fonts/source-sans-3.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/rubik.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/css.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=uuul6" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/fonts/source-sans-3.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/rubik.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/css.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=yf0ty" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=uuul6" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=yf0ty" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=uuul6" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=yf0ty" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=uuul6" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=uuul6" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uuul6" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=yf0ty" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=yf0ty" />
+  <link rel="shortcut icon" href="/img/icon.png?v=yf0ty" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://egitim-3.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-05T22:24:51.519Z",
+      "dateModified": "2026-11-12T07:35:26.675Z",
       "breadcrumb": {
         "@id": "https://egitim-3.webyapar.com/en/akademik-takvim/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=uuul6">
+<link rel="stylesheet" href="style.css?v=yf0ty">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigation">
         <ul><li><a class="h0001-m9-oge" href="/en/sss/">FAQ</a></li><li><a class="h0001-m9-oge" href="/en/galeri/">Gallery</a></li><li><a class="h0001-m9-oge" href="/en/hakkimizda/">About</a></li><li><a class="h0001-m9-oge" href="/en/iletisim/">Contact</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/akademik-takvim/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/akademik-takvim/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/akademik-takvim/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-u6q00f-panel" aria-label="Toggle Menu">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -339,7 +342,7 @@
       <p class="b0000-tline-desc">Dates are samples; the real calendar is announced each year following the Ministry calendar.</p>
     </div>
     <div class="b0000-tline-list">
-      <div class="b0000-tline-item" style="animation-delay:0s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">Classes begin</h3><p class="b0000-tline-item-text">Orientation week and parent introduction meeting.</p></div><div class="b0000-tline-item" style="animation-delay:0.1s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">First-term assessment</h3><p class="b0000-tline-item-text">Parent information days.</p></div><div class="b0000-tline-item" style="animation-delay:0.2s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">Mid-year break</h3><p class="b0000-tline-item-text">End-of-term reports are shared.</p></div><div class="b0000-tline-item" style="animation-delay:0.30000000000000004s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">Science and arts fair</h3><p class="b0000-tline-item-text">Student projects are exhibited.</p></div><div class="b0000-tline-item" style="animation-delay:0.4s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">End of year</h3><p class="b0000-tline-item-text">Report-card day and the summer school announcement.</p></div>
+      <div class="b0000-tline-item" style="animation-delay:0s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">01</div><h3 class="b0000-tline-item-title">Sep · Classes begin</h3><p class="b0000-tline-item-text">Orientation week and parent introduction meeting.</p></div><div class="b0000-tline-item" style="animation-delay:0.1s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">02</div><h3 class="b0000-tline-item-title">Nov · First-term assessment</h3><p class="b0000-tline-item-text">Parent information days.</p></div><div class="b0000-tline-item" style="animation-delay:0.2s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">03</div><h3 class="b0000-tline-item-title">Jan · Mid-year break</h3><p class="b0000-tline-item-text">End-of-term reports are shared.</p></div><div class="b0000-tline-item" style="animation-delay:0.30000000000000004s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">04</div><h3 class="b0000-tline-item-title">Apr · Science and arts fair</h3><p class="b0000-tline-item-text">Student projects are exhibited.</p></div><div class="b0000-tline-item" style="animation-delay:0.4s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">05</div><h3 class="b0000-tline-item-title">Jun · End of year</h3><p class="b0000-tline-item-text">Report-card day and the summer school announcement.</p></div>
     </div>
   </div>
 </section>
@@ -369,6 +372,7 @@
     <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/akademik-takvim/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/akademik-takvim/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/akademik-takvim/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Main menu"><a class="f0000-f9__bar-oge" href="/en/"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Home</span></a><a class="f0000-f9__bar-oge" href="/en/kademeler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Levels</span></a><a class="f0000-f9__bar-oge" href="/en/on-kayit/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Pre-enrolment</span></a><a class="f0000-f9__bar-oge" href="/en/akademik-takvim/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Academic Calendar</span></a><a class="f0000-f9__bar-oge" href="/en/sss/"><span class="material-symbols-outlined" aria-hidden="true">help</span><span class="f0000-f9__bar-ad">FAQ</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo credit">
   <p class="f0001-dk-text">This demo was prepared by <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#egitim" target="_blank" rel="noopener noreferrer"><span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -379,10 +383,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=uuul6"></script>
-  <script defer src="/src/mx-store.js?v=uuul6"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=uuul6"></script>
-  <script defer src="/src/cookie.js?v=uuul6"></script>
+  <script defer src="/src/mx-ui.js?v=yf0ty"></script>
+  <script defer src="/src/mx-store.js?v=yf0ty"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=yf0ty"></script>
+  <script defer src="/src/cookie.js?v=yf0ty"></script>
 
 </body>
 

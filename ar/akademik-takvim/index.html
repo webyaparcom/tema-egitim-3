@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/fonts/source-sans-3.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/rubik.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/css.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=iv4mf" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=xnios" />
+  <link rel="stylesheet" href="/src/fonts/source-sans-3.css?v=xnios" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=xnios" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=xnios" />
+  <link rel="stylesheet" href="/src/rubik.css?v=xnios" />
+  <link rel="stylesheet" href="/src/css.css?v=xnios" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=xnios" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=iv4mf" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=xnios" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=iv4mf" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=xnios" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=iv4mf" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=iv4mf" />
-  <link rel="shortcut icon" href="/img/icon.png?v=iv4mf" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=xnios" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=xnios" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xnios" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://egitim-3.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-05T22:24:51.519Z",
+      "dateModified": "2026-11-12T07:35:26.675Z",
       "breadcrumb": {
         "@id": "https://egitim-3.webyapar.com/ar/akademik-takvim/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=iv4mf">
+<link rel="stylesheet" href="style.css?v=xnios">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/sss/">الأسئلة الشائعة</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/akademik-takvim/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/akademik-takvim/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/akademik-takvim/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-u6q00f-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -339,7 +342,7 @@
       <p class="b0000-tline-desc">التواريخ نماذج؛ ويُعلَن التقويم الفعلي كل عام وفق تقويم الوزارة.</p>
     </div>
     <div class="b0000-tline-list">
-      <div class="b0000-tline-item" style="animation-delay:0s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">بدء الدروس</h3><p class="b0000-tline-item-text">أسبوع التهيئة ولقاء تعارف أولياء الأمور.</p></div><div class="b0000-tline-item" style="animation-delay:0.1s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">تقييم الفصل الأول</h3><p class="b0000-tline-item-text">أيام إعلام أولياء الأمور.</p></div><div class="b0000-tline-item" style="animation-delay:0.2s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">عطلة منتصف العام</h3><p class="b0000-tline-item-text">تُشارَك تقارير نهاية الفصل.</p></div><div class="b0000-tline-item" style="animation-delay:0.30000000000000004s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">معرض العلوم والفنون</h3><p class="b0000-tline-item-text">تُعرض مشاريع الطلاب.</p></div><div class="b0000-tline-item" style="animation-delay:0.4s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">[object Object]</div><h3 class="b0000-tline-item-title">نهاية العام</h3><p class="b0000-tline-item-text">يوم الشهادات والإعلان عن المدرسة الصيفية.</p></div>
+      <div class="b0000-tline-item" style="animation-delay:0s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">01</div><h3 class="b0000-tline-item-title">سبتمبر · بدء الدروس</h3><p class="b0000-tline-item-text">أسبوع التهيئة ولقاء تعارف أولياء الأمور.</p></div><div class="b0000-tline-item" style="animation-delay:0.1s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">02</div><h3 class="b0000-tline-item-title">نوفمبر · تقييم الفصل الأول</h3><p class="b0000-tline-item-text">أيام إعلام أولياء الأمور.</p></div><div class="b0000-tline-item" style="animation-delay:0.2s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">03</div><h3 class="b0000-tline-item-title">يناير · عطلة منتصف العام</h3><p class="b0000-tline-item-text">تُشارَك تقارير نهاية الفصل.</p></div><div class="b0000-tline-item" style="animation-delay:0.30000000000000004s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">04</div><h3 class="b0000-tline-item-title">أبريل · معرض العلوم والفنون</h3><p class="b0000-tline-item-text">تُعرض مشاريع الطلاب.</p></div><div class="b0000-tline-item" style="animation-delay:0.4s"><span class="b0000-tline-dot" aria-hidden="true"></span><div class="b0000-tline-year">05</div><h3 class="b0000-tline-item-title">يونيو · نهاية العام</h3><p class="b0000-tline-item-text">يوم الشهادات والإعلان عن المدرسة الصيفية.</p></div>
     </div>
   </div>
 </section>
@@ -369,6 +372,7 @@
     <nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/akademik-takvim/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/akademik-takvim/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/akademik-takvim/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Main menu"><a class="f0000-f9__bar-oge" href="/ar/"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">الصفحة الرئيسية</span></a><a class="f0000-f9__bar-oge" href="/ar/kademeler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">المراحل</span></a><a class="f0000-f9__bar-oge" href="/ar/on-kayit/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">التسجيل المسبق</span></a><a class="f0000-f9__bar-oge" href="/ar/akademik-takvim/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">التقويم الأكاديمي</span></a><a class="f0000-f9__bar-oge" href="/ar/sss/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">الأسئلة الشائعة</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="معلومات العرض التجريبي">
   <p class="f0001-dk-text">تم إعداد هذا العرض التجريبي بواسطة <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#egitim" target="_blank" rel="noopener noreferrer"><span>اطلب هذا القالب</span><span class="mx-visually-hidden"> (يفتح في علامة تبويب جديدة)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -379,10 +383,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=iv4mf"></script>
-  <script defer src="/src/mx-store.js?v=iv4mf"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=iv4mf"></script>
-  <script defer src="/src/cookie.js?v=iv4mf"></script>
+  <script defer src="/src/mx-ui.js?v=xnios"></script>
+  <script defer src="/src/mx-store.js?v=xnios"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=xnios"></script>
+  <script defer src="/src/cookie.js?v=xnios"></script>
 
 </body>
 
