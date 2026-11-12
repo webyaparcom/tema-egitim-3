@@ -1817,15 +1817,11 @@
       },
       "data": [
         {
-          "year": {
-            "tr": "Eylül",
-            "en": "Sep",
-            "ar": "سبتمبر"
-          },
+          "year": "01",
           "title": {
-            "tr": "Dersler başlar",
-            "en": "Classes begin",
-            "ar": "بدء الدروس"
+            "tr": "Eylül · Dersler başlar",
+            "en": "Sep · Classes begin",
+            "ar": "سبتمبر · بدء الدروس"
           },
           "text": {
             "tr": "Uyum haftası ve veli tanışma toplantısı.",
@@ -1834,15 +1830,11 @@
           }
         },
         {
-          "year": {
-            "tr": "Kasım",
-            "en": "Nov",
-            "ar": "نوفمبر"
-          },
+          "year": "02",
           "title": {
-            "tr": "Birinci dönem değerlendirmesi",
-            "en": "First-term assessment",
-            "ar": "تقييم الفصل الأول"
+            "tr": "Kasım · Birinci dönem değerlendirmesi",
+            "en": "Nov · First-term assessment",
+            "ar": "نوفمبر · تقييم الفصل الأول"
           },
           "text": {
             "tr": "Veli bilgilendirme günleri.",
@@ -1851,15 +1843,11 @@
           }
         },
         {
-          "year": {
-            "tr": "Ocak",
-            "en": "Jan",
-            "ar": "يناير"
-          },
+          "year": "03",
           "title": {
-            "tr": "Yarıyıl tatili",
-            "en": "Mid-year break",
-            "ar": "عطلة منتصف العام"
+            "tr": "Ocak · Yarıyıl tatili",
+            "en": "Jan · Mid-year break",
+            "ar": "يناير · عطلة منتصف العام"
           },
           "text": {
             "tr": "Dönem sonu raporları paylaşılır.",
@@ -1868,15 +1856,11 @@
           }
         },
         {
-          "year": {
-            "tr": "Nisan",
-            "en": "Apr",
-            "ar": "أبريل"
-          },
+          "year": "04",
           "title": {
-            "tr": "Bilim ve sanat şenliği",
-            "en": "Science and arts fair",
-            "ar": "معرض العلوم والفنون"
+            "tr": "Nisan · Bilim ve sanat şenliği",
+            "en": "Apr · Science and arts fair",
+            "ar": "أبريل · معرض العلوم والفنون"
           },
           "text": {
             "tr": "Öğrenci projeleri sergilenir.",
@@ -1885,15 +1869,11 @@
           }
         },
         {
-          "year": {
-            "tr": "Haziran",
-            "en": "Jun",
-            "ar": "يونيو"
-          },
+          "year": "05",
           "title": {
-            "tr": "Yıl sonu",
-            "en": "End of year",
-            "ar": "نهاية العام"
+            "tr": "Haziran · Yıl sonu",
+            "en": "Jun · End of year",
+            "ar": "يونيو · نهاية العام"
           },
           "text": {
             "tr": "Karne günü ve yaz okulu duyurusu.",
@@ -1948,6 +1928,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "zyyq3h",
@@ -1982,7 +1968,7 @@
         "stil": "kutulu",
         "logo": "{{logo}}",
         "logo_h": "56px",
-        "max": "1200px",
+        "max": "1800px",
         "bilgi_bandi": true,
         "sticky": true,
         "showlang": true,
@@ -2001,7 +1987,10 @@
           "en": "Weekdays 08:30 – 17:30 · Enrolment meetings by appointment",
           "ar": "أيام الأسبوع 08:30 – 17:30 · لقاءات التسجيل بموعد"
         },
-        "social": []
+        "social": [],
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)"
       },
       "data": [],
       "id": "u6q00f",
@@ -2417,7 +2406,7 @@
           "number": 12,
           "suffix": "",
           "label": {
-            "tr": "Öğrenci sayısına kadar sınıf",
+            "tr": "Sınıf başına en çok öğrenci",
             "en": "Max students per class",
             "ar": "حد أقصى للطلاب في الصف"
           },
@@ -2910,7 +2899,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "id": "00qgkf",
